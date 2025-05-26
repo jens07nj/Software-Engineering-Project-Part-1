@@ -27,6 +27,13 @@ app.secret_key = b"_53oi3uriq9pifpff;apl"
 csrf = CSRFProtect(app)
 
 
+
+@app.route("/login.html", methods=["GET", "POST"])
+def login_page():
+    return login()
+@app.route("/index.html", methods=["GET"])
+def index_page():
+    return index()
 # Redirect index.html to domain root for consistent UX
 @app.route("/index", methods=["GET"])
 @app.route("/index.htm", methods=["GET"])
@@ -34,7 +41,7 @@ csrf = CSRFProtect(app)
 @app.route("/index.php", methods=["GET"])
 @app.route("/index.html", methods=["GET"])
 def root():
-    return redirect("/", 302)
+    return redirect("/login.html", 302)
 
 
 @app.route("/", methods=["POST", "GET"])
@@ -58,6 +65,20 @@ def root():
         "frame-src": "'none'",
     }
 )
+
+
+def login():
+    error = None
+    if request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+        # Replace this with your real authentication logic
+        if dbHandler.validate_user(username, password):
+            return redirect("/index.html")
+        else:
+            error = "Invalid username or password."
+    return render_template("login.html", error=error)
+
 def index():
     return render_template("/index.html")
 
@@ -68,14 +89,14 @@ def privacy():
 
 
 # example CSRF protected form
-@app.route("/form.html", methods=["POST", "GET"])
+@app.route("/screenform.html", methods=["POST", "GET"])
 def form():
     if request.method == "POST":
         email = request.form["email"]
         text = request.form["text"]
-        return render_template("/form.html")
+        return render_template("/screenform.html")
     else:
-        return render_template("/form.html")
+        return render_template("/screenform.html")
 
 
 # Endpoint for logging CSP violations
