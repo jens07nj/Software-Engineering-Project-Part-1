@@ -1,0 +1,83 @@
+2025-05-26 02:51:44,719 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.53:5000
+2025-05-26 02:51:44,719 [33mPress CTRL+C to quit[0m
+2025-05-26 02:51:44,720  * Restarting with stat
+2025-05-26 02:51:44,961  * Debugger is active!
+2025-05-26 02:51:44,963  * Debugger PIN: 105-022-396
+2025-05-26 02:51:52,044 127.0.0.1 - - [26/May/2025 02:51:52] "GET / HTTP/1.1" 200 -
+2025-05-26 02:51:52,111 127.0.0.1 - - [26/May/2025 02:51:52] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-05-26 02:51:52,253 127.0.0.1 - - [26/May/2025 02:51:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-26 02:51:52,305 127.0.0.1 - - [26/May/2025 02:51:52] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-05-26 02:51:52,322 127.0.0.1 - - [26/May/2025 02:51:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-05-26 02:51:52,327 127.0.0.1 - - [26/May/2025 02:51:52] "GET /static/manifest.json HTTP/1.1" 200 -
+2025-05-26 02:51:52,334 127.0.0.1 - - [26/May/2025 02:51:52] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-05-26 02:51:52,435 127.0.0.1 - - [26/May/2025 02:51:52] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-05-26 02:51:52,439 127.0.0.1 - - [26/May/2025 02:51:52] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-05-26 02:51:52,550 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,551 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,557 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,559 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,563 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,567 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,568 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,571 127.0.0.1 - - [26/May/2025 02:51:52] "GET / HTTP/1.1" 200 -
+2025-05-26 02:51:52,572 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,573 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,576 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,580 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2025-05-26 02:51:52,591 127.0.0.1 - - [26/May/2025 02:51:52] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2025-05-26 02:52:38,986 127.0.0.1 - - [26/May/2025 02:52:38] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-26 02:52:38,989 127.0.0.1 - - [26/May/2025 02:52:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 02:52:38,990 127.0.0.1 - - [26/May/2025 02:52:38] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-26 02:52:38,992 127.0.0.1 - - [26/May/2025 02:52:38] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-05-26 02:52:57,121 127.0.0.1 - - [26/May/2025 02:52:57] "GET / HTTP/1.1" 200 -
+2025-05-26 02:52:57,327 127.0.0.1 - - [26/May/2025 02:52:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-26 02:52:57,341 127.0.0.1 - - [26/May/2025 02:52:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-05-26 02:52:57,344 127.0.0.1 - - [26/May/2025 02:52:57] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-05-26 02:52:57,541 {"csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://github.com/","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","line-number":90,"source-file":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-05-26 02:52:57,542 127.0.0.1 - - [26/May/2025 02:52:57] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:52:57,547 127.0.0.1 - - [26/May/2025 02:52:57] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-05-26 02:52:57,574 127.0.0.1 - - [26/May/2025 02:52:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-05-26 02:52:57,630 127.0.0.1 - - [26/May/2025 02:52:57] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-05-26 02:52:57,643 127.0.0.1 - - [26/May/2025 02:52:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:52:57,675 {"csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://github.com/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:52:57,676 127.0.0.1 - - [26/May/2025 02:52:57] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:52:57,745 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,750 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,751 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,761 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,768 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,773 127.0.0.1 - - [26/May/2025 02:52:57] "GET / HTTP/1.1" 200 -
+2025-05-26 02:52:57,774 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,780 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,781 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,786 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,790 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,792 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2025-05-26 02:52:57,806 127.0.0.1 - - [26/May/2025 02:52:57] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2025-05-26 02:53:01,503 127.0.0.1 - - [26/May/2025 02:53:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:53:01,518 127.0.0.1 - - [26/May/2025 02:53:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:53:01,551 127.0.0.1 - - [26/May/2025 02:53:01] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-05-26 02:53:01,654 127.0.0.1 - - [26/May/2025 02:53:01] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-05-26 02:54:00,722 127.0.0.1 - - [26/May/2025 02:54:00] "GET / HTTP/1.1" 200 -
+2025-05-26 02:54:00,796 127.0.0.1 - - [26/May/2025 02:54:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:54:00,806 127.0.0.1 - - [26/May/2025 02:54:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:54:00,809 127.0.0.1 - - [26/May/2025 02:54:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:54:00,907 {"csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/?","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2025-05-26 02:54:00,908 127.0.0.1 - - [26/May/2025 02:54:00] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:54:00,910 127.0.0.1 - - [26/May/2025 02:54:00] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-05-26 02:54:00,940 127.0.0.1 - - [26/May/2025 02:54:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:54:01,001 127.0.0.1 - - [26/May/2025 02:54:01] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-05-26 02:54:01,036 127.0.0.1 - - [26/May/2025 02:54:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-26 02:54:01,131 {"csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/?","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-05-26 02:54:01,131 127.0.0.1 - - [26/May/2025 02:54:01] "POST /csp_report HTTP/1.1" 200 -
+2025-05-26 02:54:04,661 127.0.0.1 - - [26/May/2025 02:54:04] "GET /form.html HTTP/1.1" 200 -
+2025-05-26 02:54:04,922 127.0.0.1 - - [26/May/2025 02:54:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 02:54:04,926 127.0.0.1 - - [26/May/2025 02:54:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-26 02:54:04,930 127.0.0.1 - - [26/May/2025 02:54:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-26 02:54:04,999 127.0.0.1 - - [26/May/2025 02:54:04] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-05-26 02:54:05,002 127.0.0.1 - - [26/May/2025 02:54:05] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-05-26 02:54:05,078 127.0.0.1 - - [26/May/2025 02:54:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-26 02:54:05,175 127.0.0.1 - - [26/May/2025 02:54:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
