@@ -1,6 +1,6 @@
 import sqlite3 as sql
 import bcrypt
-
+from datetime import datetime
 
 ### example
 def getUsers():
@@ -32,3 +32,28 @@ def validate_user(Username, password):
     return False
     #hashed_password = result[0]
     #return bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8'))
+
+
+
+def connect_db():
+    return sql.connect("data.db")
+
+def insert_screen_data(pretester, patient_id, screen_complete, reason_declined, hearing_loss, booked, pls_call):
+    recorded_time = datetime.now().isoformat(sep=' ', timespec='seconds')
+
+    with connect_db() as conn:
+        conn.execute("""
+            INSERT INTO ScreenData 
+            (Pretester, RecordedTime, Patientid, ScreenCompletion, HearingLoss, Booked, PlsCall, ReasonDeclined)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            pretester,
+            recorded_time,
+            patient_id,
+            screen_complete == "yes",
+            hearing_loss == "yes",
+            booked == "yes",
+            pls_call == "yes",
+            reason_declined
+        ))
+        conn.commit()

@@ -7,7 +7,7 @@ import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import logging
-
+from flask import sessions
 import userManagement as dbHandler
 
 # Code snippet for logging a message
@@ -74,6 +74,7 @@ def login():
         password = request.form.get("password")
         # Replace this with your real authentication logic
         if dbHandler.validate_user(username, password):
+            sessions["username"] = username
             return redirect("/index.html")
         else:
             error = "Invalid username or password."
@@ -87,17 +88,40 @@ def index():
 def privacy():
     return render_template("/privacy.html")
 
+@app.route("/submit_screendata", methods=["POST"])  # Define route for form submission (POST)
+def submit_screen_data():
+    # Check if user is logged in (username is stored in the session)
+    if "username" not in sessions:
+        return "Unauthorized", 403  # Return a 403 Forbidden if user is not authenticated
 
-# example CSRF protected form
-@app.route("/screenform.html", methods=["POST", "GET"])
-def form():
-    if request.method == "POST":
-        email = request.form["email"]
-        text = request.form["text"]
-        return render_template("/screenform.html")
-    else:
-        return render_template("/screenform.html")
+    # ✅ Get the pretester username from the session
+    pretester = sessions["username"]
 
+    # ✅ Collect form data submitted by the user
+    patient_id = request.form.get("patient_id")                   # Text field
+    screen_complete = request.form.get("screen_complete") == "yes"  # Convert to boolean
+    reason_declined = request.form.get("reason_declined")         # Optional text field
+    hearing_loss = request.form.get("hearing_loss") == "yes"      # Convert to boolean
+    booked = request.form.get("booked") == "yes"                  # Convert to boolean
+    pls_call = request.form.get("pls_call") == "yes"              # Convert to boolean
+
+    # ✅ Automatically generate the current date and time
+    recorded_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # ✅ Insert data into the database using a helper function
+    dbHandler.insert_screen_data(
+        pretester,         # Who is submitting the data
+        recorded_time,     # When it was submitted
+        patient_id,
+        screen_complete,
+        hearing_loss,
+        booked,
+        pls_call,
+        reason_declined    # May be None if not provided
+    )
+
+    # ✅ Return a simple success message
+    return "Form submitted successfully!"
 
 # Endpoint for logging CSP violations
 @app.route("/csp_report", methods=["POST"])
