@@ -1,70 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Screen Data Form</title>
-        <script>
-            function handleScreenComplete(value) {
-                const reasonDiv = document.getElementById('reason_declined_div');
-                const followupDiv = document.getElementById('followup_questions_div');
-                if (value === 'no') {
-                    reasonDiv.style.display = 'block';
-                    followupDiv.style.display = 'none';
-                } else if (value === 'yes') {
-                    reasonDiv.style.display = 'none';
-                    followupDiv.style.display = 'block';
-                } else {
-                    reasonDiv.style.display = 'none';
-                    followupDiv.style.display = 'none';
-                }
-            }
-        </script>
-    </head>
-    <body>
-        <h1>Enter Screen Data</h1>
-        <form action="/submit_screendata" method="post">
-            <label for="patient_id">Patient ID:</label>
-            <input
-                type="text"
-                id="patient_id"
-                name="patient_id"
-                required
-            /><br /><br />
+  <head>
+    <meta charset="UTF-8" />
+    <title>Screen Data Form</title>
+    <script>
+      function handleScreenComplete(value) {
+        const reasonDiv = document.getElementById("reason_declined_div");
+        const followupDiv = document.getElementById("followup_questions_div");
+        if (value === "no") {
+          reasonDiv.style.display = "block";
+          followupDiv.style.display = "none";
+        } else if (value === "yes") {
+          reasonDiv.style.display = "none";
+          followupDiv.style.display = "block";
+        } else {
+          reasonDiv.style.display = "none";
+          followupDiv.style.display = "none";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Enter Screen Data</h1>
+    <form action="/screenform.html" method="POST">
+      <label for="patient_id">Patient ID:</label>
+      <input
+        type="text"
+        id="patient_id"
+        name="patient_id"
+        required
+      /><br /><br />
 
-            <label>Screen Complete:</label>
-            <button type="button" onclick="handleScreenComplete('yes'); this.form.screen_complete.value='yes';">Yes</button>
-            <button type="button" onclick="handleScreenComplete('no'); this.form.screen_complete.value='no';">No</button>
-            <input type="hidden" name="screen_complete" value="" />
-            <br /><br />
+      <label>Screen Complete:</label>
+      <button
+        type="button"
+        onclick="handleScreenComplete('yes'); this.form.screen_complete.value='yes';"
+      >
+        Yes
+      </button>
+      <button
+        type="button"
+        onclick="handleScreenComplete('no'); this.form.screen_complete.value='no';"
+      >
+        No
+      </button>
+      <input type="hidden" name="screen_complete" value="" />
+      <br /><br />
 
-            <div id="reason_declined_div" style="display:none; margin-top:10px;">
-                <label for="reason_declined">Reason declined (optional):</label>
-                <input type="text" id="reason_declined" name="reason_declined" />
-                <br /><br />
-                <button type="submit">Submit</button>
-            </div>
+      <div id="reason_declined_div" style="display: none; margin-top: 10px">
+        <label for="reason_declined">Reason declined (optional):</label>
+        <input type="text" id="reason_declined" name="reason_declined" />
+        <br /><br />
+        <button type="submit">Submit</button>
+      </div>
 
-            <div id="followup_questions_div" style="display:none; margin-top:10px;">
-                <label>Hearing loss?</label>
-                <button type="button" onclick="this.form.hearing_loss.value='yes';">Yes</button>
-                <button type="button" onclick="this.form.hearing_loss.value='no';">No</button>
-                <input type="hidden" name="hearing_loss" value="" />
-                <br /><br />
+      <div id="followup_questions_div" style="display: none; margin-top: 10px">
+        <label>Hearing loss?</label>
+        <button type="button" onclick="this.form.hearing_loss.value='yes';">
+          Yes
+        </button>
+        <button type="button" onclick="this.form.hearing_loss.value='no';">
+          No
+        </button>
+        <input type="hidden" name="hearing_loss" value="" />
+        <br /><br />
 
-                <label>Booked</label>
-                <button type="button" onclick="this.form.booked.value='yes';">Yes</button>
-                <button type="button" onclick="this.form.booked.value='no';">No</button>
-                <input type="hidden" name="booked" value="" />
-                <br /><br />
+        <label>Booked</label>
+        <button type="button" onclick="this.form.booked.value='yes';">
+          Yes
+        </button>
+        <button type="button" onclick="this.form.booked.value='no';">No</button>
+        <input type="hidden" name="booked" value="" />
+        <br /><br />
 
-                <label>pls call</label>
-                <button type="button" onclick="this.form.pls_call.value='yes';">Yes</button>
-                <button type="button" onclick="this.form.pls_call.value='no';">No</button>
-                <input type="hidden" name="pls_call" value="" />
-                <br /><br />
+        <label>pls call</label>
+        <button type="button" onclick="this.form.pls_call.value='yes';">
+          Yes
+        </button>
+        <button type="button" onclick="this.form.pls_call.value='no';">
+          No
+        </button>
+        <input type="hidden" name="pls_call" value="" />
+        <br /><br />
 
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-    </body>
+        <button type="submit">Submit</button>
+      </div>
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    </form>
+  </body>
 </html>
