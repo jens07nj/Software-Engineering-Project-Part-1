@@ -924,3 +924,200 @@
 2025-05-27 23:07:28,359  * Restarting with stat
 2025-05-27 23:07:28,617  * Debugger is active!
 2025-05-27 23:07:28,617  * Debugger PIN: 145-242-610
+2025-05-28 06:42:35,683 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.88:5000
+2025-05-28 06:42:35,685 [33mPress CTRL+C to quit[0m
+2025-05-28 06:42:35,685  * Restarting with stat
+2025-05-28 06:42:36,004  * Debugger is active!
+2025-05-28 06:42:36,010  * Debugger PIN: 433-379-654
+2025-05-28 06:42:44,423 127.0.0.1 - - [28/May/2025 06:42:44] "GET / HTTP/1.1" 200 -
+2025-05-28 06:42:44,608 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-28 06:42:44,608 127.0.0.1 - - [28/May/2025 06:42:44] "POST /csp_report HTTP/1.1" 200 -
+2025-05-28 06:42:44,620 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-28 06:42:44,621 127.0.0.1 - - [28/May/2025 06:42:44] "POST /csp_report HTTP/1.1" 200 -
+2025-05-28 06:42:49,719 127.0.0.1 - - [28/May/2025 06:42:49] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-28 06:42:50,268 127.0.0.1 - - [28/May/2025 06:42:50] "GET /index.html HTTP/1.1" 200 -
+2025-05-28 06:42:50,341 127.0.0.1 - - [28/May/2025 06:42:50] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-28 06:42:50,341 127.0.0.1 - - [28/May/2025 06:42:50] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-05-28 06:42:50,344 127.0.0.1 - - [28/May/2025 06:42:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-28 06:42:50,347 127.0.0.1 - - [28/May/2025 06:42:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-28 06:42:50,351 127.0.0.1 - - [28/May/2025 06:42:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-28 06:42:50,419 127.0.0.1 - - [28/May/2025 06:42:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-28 06:42:52,574 127.0.0.1 - - [28/May/2025 06:42:52] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 06:43:04,948 127.0.0.1 - - [28/May/2025 06:43:04] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 06:43:04,994 127.0.0.1 - - [28/May/2025 06:43:04] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 06:43:05,008 127.0.0.1 - - [28/May/2025 06:43:05] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 06:43:05,038 127.0.0.1 - - [28/May/2025 06:43:05] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=maQRaByiRsw44gDtCbzy HTTP/1.1" 200 -
+2025-05-28 06:44:16,468  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 06:44:16,503  * Restarting with stat
+2025-05-28 06:44:16,736  * Debugger is active!
+2025-05-28 06:44:16,736  * Debugger PIN: 433-379-654
+2025-05-28 06:44:18,767 127.0.0.1 - - [28/May/2025 06:44:18] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 06:44:18,833 127.0.0.1 - - [28/May/2025 06:44:18] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 06:44:18,836 127.0.0.1 - - [28/May/2025 06:44:18] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 06:44:18,865 127.0.0.1 - - [28/May/2025 06:44:18] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=RF3g3WCt3GnIHP5rdMVW HTTP/1.1" 200 -
+2025-05-28 06:46:38,744  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 06:46:38,781  * Restarting with stat
+2025-05-28 06:46:39,016  * Debugger is active!
+2025-05-28 06:46:39,016  * Debugger PIN: 433-379-654
+2025-05-28 06:47:05,763  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 06:47:05,798  * Restarting with stat
+2025-05-28 06:47:06,031  * Debugger is active!
+2025-05-28 06:47:06,031  * Debugger PIN: 433-379-654
+2025-05-28 06:47:06,509 127.0.0.1 - - [28/May/2025 06:47:06] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 06:47:10,534 127.0.0.1 - - [28/May/2025 06:47:10] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 06:47:10,689 127.0.0.1 - - [28/May/2025 06:47:10] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 06:47:10,691 127.0.0.1 - - [28/May/2025 06:47:10] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 06:47:10,812 127.0.0.1 - - [28/May/2025 06:47:10] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=FCPJfCvrxnkjCpIQF3yD HTTP/1.1" 200 -
+2025-05-28 06:49:46,924  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 06:49:46,961  * Restarting with stat
+2025-05-28 06:49:47,205  * Debugger is active!
+2025-05-28 06:49:47,206  * Debugger PIN: 433-379-654
+2025-05-28 06:49:47,676 127.0.0.1 - - [28/May/2025 06:49:47] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 06:49:50,149 127.0.0.1 - - [28/May/2025 06:49:50] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 06:49:50,306 127.0.0.1 - - [28/May/2025 06:49:50] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 06:49:50,310 127.0.0.1 - - [28/May/2025 06:49:50] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 06:49:50,487 127.0.0.1 - - [28/May/2025 06:49:50] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=Xo5j1pZaWR6qCrlo92Hx HTTP/1.1" 200 -
+2025-05-28 06:51:49,502  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 06:51:49,540  * Restarting with stat
+2025-05-28 06:51:49,778  * Debugger is active!
+2025-05-28 06:51:49,778  * Debugger PIN: 433-379-654
+2025-05-28 06:52:14,967  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 06:52:15,003  * Restarting with stat
+2025-05-28 06:52:15,277  * Debugger is active!
+2025-05-28 06:52:15,277  * Debugger PIN: 433-379-654
+2025-05-28 06:52:51,900  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 06:52:51,937  * Restarting with stat
+2025-05-28 06:52:52,189  * Debugger is active!
+2025-05-28 06:52:52,190  * Debugger PIN: 433-379-654
+2025-05-28 06:53:43,233  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 06:53:43,271  * Restarting with stat
+2025-05-28 06:53:43,504  * Debugger is active!
+2025-05-28 06:53:43,505  * Debugger PIN: 433-379-654
+2025-05-28 06:55:00,224  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 06:55:00,256  * Restarting with stat
+2025-05-28 06:55:00,491  * Debugger is active!
+2025-05-28 06:55:00,491  * Debugger PIN: 433-379-654
+2025-05-28 06:55:54,206  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 06:55:54,240  * Restarting with stat
+2025-05-28 06:55:54,543  * Debugger is active!
+2025-05-28 06:55:54,543  * Debugger PIN: 433-379-654
+2025-05-28 06:58:09,663  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 06:58:09,704  * Restarting with stat
+2025-05-28 06:58:09,974  * Debugger is active!
+2025-05-28 06:58:09,974  * Debugger PIN: 433-379-654
+2025-05-28 07:02:14,114  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:02:14,156  * Restarting with stat
+2025-05-28 07:02:14,393  * Debugger is active!
+2025-05-28 07:02:14,394  * Debugger PIN: 433-379-654
+2025-05-28 07:02:49,859  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:02:49,892  * Restarting with stat
+2025-05-28 07:02:50,124  * Debugger is active!
+2025-05-28 07:02:50,125  * Debugger PIN: 433-379-654
+2025-05-28 07:06:11,971  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 07:06:12,021  * Restarting with stat
+2025-05-28 07:06:12,270  * Debugger is active!
+2025-05-28 07:06:12,270  * Debugger PIN: 433-379-654
+2025-05-28 07:06:13,165 127.0.0.1 - - [28/May/2025 07:06:13] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 07:06:15,693 127.0.0.1 - - [28/May/2025 07:06:15] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 07:06:15,863 127.0.0.1 - - [28/May/2025 07:06:15] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 07:06:15,867 127.0.0.1 - - [28/May/2025 07:06:15] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 07:06:15,986 127.0.0.1 - - [28/May/2025 07:06:15] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=e3UcyEha9yVLDEYqv0Ks HTTP/1.1" 200 -
+2025-05-28 07:07:04,598  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:07:04,635  * Restarting with stat
+2025-05-28 07:07:04,871  * Debugger is active!
+2025-05-28 07:07:04,871  * Debugger PIN: 433-379-654
+2025-05-28 07:08:00,017  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:08:00,052  * Restarting with stat
+2025-05-28 07:08:00,284  * Debugger is active!
+2025-05-28 07:08:00,284  * Debugger PIN: 433-379-654
+2025-05-28 07:08:00,720 127.0.0.1 - - [28/May/2025 07:08:00] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 07:08:03,297 127.0.0.1 - - [28/May/2025 07:08:03] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 07:08:03,468 127.0.0.1 - - [28/May/2025 07:08:03] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 07:08:03,473 127.0.0.1 - - [28/May/2025 07:08:03] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 07:08:03,577 127.0.0.1 - - [28/May/2025 07:08:03] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=n0DSYBfHgATXXLvsaLH9 HTTP/1.1" 200 -
+2025-05-28 07:11:34,128  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:11:34,161  * Restarting with stat
+2025-05-28 07:11:34,393  * Debugger is active!
+2025-05-28 07:11:34,393  * Debugger PIN: 433-379-654
+2025-05-28 07:13:29,341  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:13:29,377  * Restarting with stat
+2025-05-28 07:13:29,625  * Debugger is active!
+2025-05-28 07:13:29,625  * Debugger PIN: 433-379-654
+2025-05-28 07:13:30,460 127.0.0.1 - - [28/May/2025 07:13:30] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 07:13:32,509 127.0.0.1 - - [28/May/2025 07:13:32] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 07:13:32,669 127.0.0.1 - - [28/May/2025 07:13:32] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 07:13:32,671 127.0.0.1 - - [28/May/2025 07:13:32] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 07:13:32,775 127.0.0.1 - - [28/May/2025 07:13:32] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=qvy2ntNwlioE886l7ta2 HTTP/1.1" 200 -
+2025-05-28 07:16:28,228  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:16:28,272  * Restarting with stat
+2025-05-28 07:16:28,507  * Debugger is active!
+2025-05-28 07:16:28,508  * Debugger PIN: 433-379-654
+2025-05-28 07:16:29,534 127.0.0.1 - - [28/May/2025 07:16:29] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 07:16:32,081 127.0.0.1 - - [28/May/2025 07:16:32] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 07:16:32,257 127.0.0.1 - - [28/May/2025 07:16:32] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 07:16:32,258 127.0.0.1 - - [28/May/2025 07:16:32] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 07:16:32,396 127.0.0.1 - - [28/May/2025 07:16:32] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=82OsKGXygmEksk4tiYa6 HTTP/1.1" 200 -
+2025-05-28 07:16:38,715 127.0.0.1 - - [28/May/2025 07:16:38] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 07:16:40,275 127.0.0.1 - - [28/May/2025 07:16:40] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 07:16:48,309 127.0.0.1 - - [28/May/2025 07:16:48] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 07:16:48,352 127.0.0.1 - - [28/May/2025 07:16:48] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 07:16:48,354 127.0.0.1 - - [28/May/2025 07:16:48] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 07:16:48,380 127.0.0.1 - - [28/May/2025 07:16:48] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=82OsKGXygmEksk4tiYa6 HTTP/1.1[0m" 304 -
+2025-05-28 07:18:14,478  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:18:14,517  * Restarting with stat
+2025-05-28 07:18:14,786  * Debugger is active!
+2025-05-28 07:18:14,786  * Debugger PIN: 433-379-654
+2025-05-28 07:19:51,045  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:19:51,081  * Restarting with stat
+2025-05-28 07:19:51,317  * Debugger is active!
+2025-05-28 07:19:51,317  * Debugger PIN: 433-379-654
+2025-05-28 07:19:53,908 127.0.0.1 - - [28/May/2025 07:19:53] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 07:20:01,420 127.0.0.1 - - [28/May/2025 07:20:01] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 07:20:01,560 127.0.0.1 - - [28/May/2025 07:20:01] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 07:20:01,561 127.0.0.1 - - [28/May/2025 07:20:01] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 07:20:01,664 127.0.0.1 - - [28/May/2025 07:20:01] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=eAnIRyC5kagRe061SypA HTTP/1.1" 200 -
+2025-05-28 07:21:49,025  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 07:21:49,063  * Restarting with stat
+2025-05-28 07:21:49,302  * Debugger is active!
+2025-05-28 07:21:49,302  * Debugger PIN: 433-379-654
+2025-05-28 07:25:20,959 127.0.0.1 - - [28/May/2025 07:25:20] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 07:25:21,261  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-28 07:25:21,295  * Restarting with stat
+2025-05-28 07:25:21,533  * Debugger is active!
+2025-05-28 07:25:21,533  * Debugger PIN: 433-379-654
+2025-05-28 07:25:25,915 127.0.0.1 - - [28/May/2025 07:25:25] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 07:25:26,075 127.0.0.1 - - [28/May/2025 07:25:26] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 07:25:26,076 127.0.0.1 - - [28/May/2025 07:25:26] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 07:25:26,194 127.0.0.1 - - [28/May/2025 07:25:26] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=jT4DwTUXnxxZSwiXZNvQ HTTP/1.1" 200 -
+2025-05-28 07:27:54,994  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-28 07:27:55,025  * Restarting with stat
+2025-05-28 07:29:21,322 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.88:5000
+2025-05-28 07:29:21,322 [33mPress CTRL+C to quit[0m
+2025-05-28 07:29:21,322  * Restarting with stat
+2025-05-28 07:29:21,553  * Debugger is active!
+2025-05-28 07:29:21,553  * Debugger PIN: 433-379-654
+2025-05-28 07:29:23,126 127.0.0.1 - - [28/May/2025 07:29:23] "GET / HTTP/1.1" 200 -
+2025-05-28 07:29:23,285 127.0.0.1 - - [28/May/2025 07:29:23] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-28 07:29:23,298 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-28 07:29:23,298 127.0.0.1 - - [28/May/2025 07:29:23] "POST /csp_report HTTP/1.1" 200 -
+2025-05-28 07:29:23,310 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-28 07:29:23,310 127.0.0.1 - - [28/May/2025 07:29:23] "POST /csp_report HTTP/1.1" 200 -
+2025-05-28 07:29:28,415 127.0.0.1 - - [28/May/2025 07:29:28] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-28 07:29:28,904 127.0.0.1 - - [28/May/2025 07:29:28] "GET /index.html HTTP/1.1" 200 -
+2025-05-28 07:29:28,968 127.0.0.1 - - [28/May/2025 07:29:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 07:29:28,973 127.0.0.1 - - [28/May/2025 07:29:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-28 07:29:28,975 127.0.0.1 - - [28/May/2025 07:29:28] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-28 07:29:28,978 127.0.0.1 - - [28/May/2025 07:29:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-28 07:29:28,980 127.0.0.1 - - [28/May/2025 07:29:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-28 07:29:28,984 127.0.0.1 - - [28/May/2025 07:29:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-28 07:29:30,693 127.0.0.1 - - [28/May/2025 07:29:30] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 07:29:35,692 127.0.0.1 - - [28/May/2025 07:29:35] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 07:29:35,737 127.0.0.1 - - [28/May/2025 07:29:35] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 07:29:35,739 127.0.0.1 - - [28/May/2025 07:29:35] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 07:29:35,768 127.0.0.1 - - [28/May/2025 07:29:35] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=R0LIpZPu35BSe3E7X8SD HTTP/1.1" 200 -
