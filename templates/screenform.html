@@ -3,10 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <title>Screen Data Form</title>
+    <style>
+      .toggle-btn {
+        padding: 10px 20px;
+        margin: 5px;
+        border: 1px solid #ccc;
+        background-color: #eee;
+        cursor: pointer;
+      }
+
+      .toggle-btn.selected {
+        background-color: #007bff;
+        color: white;
+      }
+    </style>
     <script>
-      function handleScreenComplete(value) {
+      function handleScreenComplete(value, btn) {
         const reasonDiv = document.getElementById("reason_declined_div");
         const followupDiv = document.getElementById("followup_questions_div");
+
+        document
+          .querySelectorAll('[name="screen_complete_btn"]')
+          .forEach((b) => b.classList.remove("selected"));
+        btn.classList.add("selected");
+
+        const hiddenInput = document.querySelector('[name="screen_complete"]');
+        hiddenInput.value = value;
+
         if (value === "no") {
           reasonDiv.style.display = "block";
           followupDiv.style.display = "none";
@@ -17,6 +40,16 @@
           reasonDiv.style.display = "none";
           followupDiv.style.display = "none";
         }
+      }
+
+      function selectToggle(name, value, btn) {
+        const hiddenInput = document.querySelector(`[name="${name}"]`);
+        hiddenInput.value = value;
+
+        document
+          .querySelectorAll(`[name="${name}_btn"]`)
+          .forEach((b) => b.classList.remove("selected"));
+        btn.classList.add("selected");
       }
     </script>
   </head>
@@ -34,13 +67,17 @@
       <label>Screen Complete:</label>
       <button
         type="button"
-        onclick="handleScreenComplete('yes'); this.form.screen_complete.value='yes';"
+        class="toggle-btn"
+        name="screen_complete_btn"
+        onclick="handleScreenComplete('yes', this)"
       >
         Yes
       </button>
       <button
         type="button"
-        onclick="handleScreenComplete('no'); this.form.screen_complete.value='no';"
+        class="toggle-btn"
+        name="screen_complete_btn"
+        onclick="handleScreenComplete('no', this)"
       >
         No
       </button>
@@ -56,28 +93,60 @@
 
       <div id="followup_questions_div" style="display: none; margin-top: 10px">
         <label>Hearing loss?</label>
-        <button type="button" onclick="this.form.hearing_loss.value='yes';">
+        <button
+          type="button"
+          class="toggle-btn"
+          name="hearing_loss_btn"
+          onclick="selectToggle('hearing_loss', 'yes', this)"
+        >
           Yes
         </button>
-        <button type="button" onclick="this.form.hearing_loss.value='no';">
+        <button
+          type="button"
+          class="toggle-btn"
+          name="hearing_loss_btn"
+          onclick="selectToggle('hearing_loss', 'no', this)"
+        >
           No
         </button>
         <input type="hidden" name="hearing_loss" value="" />
         <br /><br />
 
         <label>Booked</label>
-        <button type="button" onclick="this.form.booked.value='yes';">
+        <button
+          type="button"
+          class="toggle-btn"
+          name="booked_btn"
+          onclick="selectToggle('booked', 'yes', this)"
+        >
           Yes
         </button>
-        <button type="button" onclick="this.form.booked.value='no';">No</button>
+        <button
+          type="button"
+          class="toggle-btn"
+          name="booked_btn"
+          onclick="selectToggle('booked', 'no', this)"
+        >
+          No
+        </button>
         <input type="hidden" name="booked" value="" />
         <br /><br />
 
-        <label>pls call</label>
-        <button type="button" onclick="this.form.pls_call.value='yes';">
+        <label>Pls call</label>
+        <button
+          type="button"
+          class="toggle-btn"
+          name="pls_call_btn"
+          onclick="selectToggle('pls_call', 'yes', this)"
+        >
           Yes
         </button>
-        <button type="button" onclick="this.form.pls_call.value='no';">
+        <button
+          type="button"
+          class="toggle-btn"
+          name="pls_call_btn"
+          onclick="selectToggle('pls_call', 'no', this)"
+        >
           No
         </button>
         <input type="hidden" name="pls_call" value="" />
@@ -85,8 +154,10 @@
 
         <button type="submit">Submit</button>
       </div>
+
       <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
     </form>
+
     <button type="button" onclick="window.location.href='/index.html';">
       Cancel
     </button>
