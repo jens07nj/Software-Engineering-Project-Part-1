@@ -1121,3 +1121,273 @@
 2025-05-28 07:29:35,737 127.0.0.1 - - [28/May/2025 07:29:35] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
 2025-05-28 07:29:35,739 127.0.0.1 - - [28/May/2025 07:29:35] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
 2025-05-28 07:29:35,768 127.0.0.1 - - [28/May/2025 07:29:35] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=R0LIpZPu35BSe3E7X8SD HTTP/1.1" 200 -
+2025-05-28 08:09:09,285 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.120:5000
+2025-05-28 08:09:09,287 [33mPress CTRL+C to quit[0m
+2025-05-28 08:09:09,287  * Restarting with stat
+2025-05-28 08:09:09,593  * Debugger is active!
+2025-05-28 08:09:09,594  * Debugger PIN: 390-077-743
+2025-05-28 08:09:20,662 127.0.0.1 - - [28/May/2025 08:09:20] "GET / HTTP/1.1" 200 -
+2025-05-28 08:09:20,820 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-28 08:09:20,820 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-28 08:09:20,821 127.0.0.1 - - [28/May/2025 08:09:20] "POST /csp_report HTTP/1.1" 200 -
+2025-05-28 08:09:20,821 127.0.0.1 - - [28/May/2025 08:09:20] "POST /csp_report HTTP/1.1" 200 -
+2025-05-28 08:10:41,019 127.0.0.1 - - [28/May/2025 08:10:41] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-28 08:10:41,344 127.0.0.1 - - [28/May/2025 08:10:41] "GET /index.html HTTP/1.1" 200 -
+2025-05-28 08:10:41,433 127.0.0.1 - - [28/May/2025 08:10:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-28 08:10:41,434 127.0.0.1 - - [28/May/2025 08:10:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-28 08:10:41,439 127.0.0.1 - - [28/May/2025 08:10:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-28 08:10:41,621 127.0.0.1 - - [28/May/2025 08:10:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-28 08:10:41,627 127.0.0.1 - - [28/May/2025 08:10:41] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-28 08:10:41,636 127.0.0.1 - - [28/May/2025 08:10:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-28 08:10:44,077 127.0.0.1 - - [28/May/2025 08:10:44] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-28 08:10:51,429 127.0.0.1 - - [28/May/2025 08:10:51] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-28 08:10:51,470 127.0.0.1 - - [28/May/2025 08:10:51] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-28 08:10:51,473 127.0.0.1 - - [28/May/2025 08:10:51] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-28 08:10:51,502 127.0.0.1 - - [28/May/2025 08:10:51] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=iFiUptjd2uSltniX1rfY HTTP/1.1" 200 -
+2025-05-29 03:25:19,215 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.4:5000
+2025-05-29 03:25:19,218 [33mPress CTRL+C to quit[0m
+2025-05-29 03:25:19,219  * Restarting with stat
+2025-05-29 03:25:19,814  * Debugger is active!
+2025-05-29 03:25:19,815  * Debugger PIN: 720-480-272
+2025-05-29 03:28:31,430 127.0.0.1 - - [29/May/2025 03:28:31] "GET / HTTP/1.1" 200 -
+2025-05-29 03:28:31,592 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-29 03:28:31,592 127.0.0.1 - - [29/May/2025 03:28:31] "POST /csp_report HTTP/1.1" 200 -
+2025-05-29 03:28:31,605 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-29 03:28:31,605 127.0.0.1 - - [29/May/2025 03:28:31] "POST /csp_report HTTP/1.1" 200 -
+2025-05-29 03:28:38,320 127.0.0.1 - - [29/May/2025 03:28:38] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-29 03:28:38,828 127.0.0.1 - - [29/May/2025 03:28:38] "GET /index.html HTTP/1.1" 200 -
+2025-05-29 03:28:38,911 127.0.0.1 - - [29/May/2025 03:28:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 03:28:38,913 127.0.0.1 - - [29/May/2025 03:28:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 03:28:38,913 127.0.0.1 - - [29/May/2025 03:28:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 03:28:38,914 127.0.0.1 - - [29/May/2025 03:28:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 03:28:38,914 127.0.0.1 - - [29/May/2025 03:28:38] "GET /static/manifest.json HTTP/1.1" 200 -
+2025-05-29 03:28:38,985 127.0.0.1 - - [29/May/2025 03:28:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-29 03:28:41,910 127.0.0.1 - - [29/May/2025 03:28:41] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 03:28:47,678 127.0.0.1 - - [29/May/2025 03:28:47] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-29 03:28:47,720 127.0.0.1 - - [29/May/2025 03:28:47] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-29 03:28:47,723 127.0.0.1 - - [29/May/2025 03:28:47] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-29 03:28:47,751 127.0.0.1 - - [29/May/2025 03:28:47] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=Yn7HfZyZcF5yGIuqy0LF HTTP/1.1" 200 -
+2025-05-29 23:22:28,036 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.173:5000
+2025-05-29 23:22:28,037 [33mPress CTRL+C to quit[0m
+2025-05-29 23:22:28,038  * Restarting with stat
+2025-05-29 23:22:28,265  * Debugger is active!
+2025-05-29 23:22:28,271  * Debugger PIN: 129-233-646
+2025-05-29 23:22:35,111 127.0.0.1 - - [29/May/2025 23:22:35] "GET / HTTP/1.1" 200 -
+2025-05-29 23:22:35,269 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-29 23:22:35,269 127.0.0.1 - - [29/May/2025 23:22:35] "POST /csp_report HTTP/1.1" 200 -
+2025-05-29 23:22:35,271 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-29 23:22:35,272 127.0.0.1 - - [29/May/2025 23:22:35] "POST /csp_report HTTP/1.1" 200 -
+2025-05-29 23:22:39,770 127.0.0.1 - - [29/May/2025 23:22:39] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-29 23:22:40,310 127.0.0.1 - - [29/May/2025 23:22:40] "GET /index.html HTTP/1.1" 200 -
+2025-05-29 23:22:40,388 127.0.0.1 - - [29/May/2025 23:22:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:22:40,392 127.0.0.1 - - [29/May/2025 23:22:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:22:40,394 127.0.0.1 - - [29/May/2025 23:22:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:22:40,403 127.0.0.1 - - [29/May/2025 23:22:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:22:40,408 127.0.0.1 - - [29/May/2025 23:22:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:22:40,495 127.0.0.1 - - [29/May/2025 23:22:40] "GET /static/manifest.json HTTP/1.1" 200 -
+2025-05-29 23:22:42,239 127.0.0.1 - - [29/May/2025 23:22:42] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:22:47,769 127.0.0.1 - - [29/May/2025 23:22:47] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-05-29 23:22:47,814 127.0.0.1 - - [29/May/2025 23:22:47] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:22:47,817 127.0.0.1 - - [29/May/2025 23:22:47] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-29 23:22:47,846 127.0.0.1 - - [29/May/2025 23:22:47] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=2R0BKRIHIlMRSqMbx2UE HTTP/1.1" 200 -
+2025-05-29 23:23:47,758  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-05-29 23:23:47,793  * Restarting with stat
+2025-05-29 23:23:48,022  * Debugger is active!
+2025-05-29 23:23:48,023  * Debugger PIN: 129-233-646
+2025-05-29 23:23:52,696 127.0.0.1 - - [29/May/2025 23:23:52] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:23:58,964 127.0.0.1 - - [29/May/2025 23:23:58] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:24:35,499 127.0.0.1 - - [29/May/2025 23:24:35] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:24:43,849 127.0.0.1 - - [29/May/2025 23:24:43] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:25:16,221 127.0.0.1 - - [29/May/2025 23:25:16] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:26:29,157 127.0.0.1 - - [29/May/2025 23:26:29] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:28:18,391  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-29 23:28:18,427  * Restarting with stat
+2025-05-29 23:28:18,659  * Debugger is active!
+2025-05-29 23:28:18,660  * Debugger PIN: 129-233-646
+2025-05-29 23:28:21,154 127.0.0.1 - - [29/May/2025 23:28:21] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:28:21,251 127.0.0.1 - - [29/May/2025 23:28:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:21,408 127.0.0.1 - - [29/May/2025 23:28:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:21,436 127.0.0.1 - - [29/May/2025 23:28:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:21,459 127.0.0.1 - - [29/May/2025 23:28:21] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:28:21,472 127.0.0.1 - - [29/May/2025 23:28:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:21,478 127.0.0.1 - - [29/May/2025 23:28:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:23,807 127.0.0.1 - - [29/May/2025 23:28:23] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:28:23,881 127.0.0.1 - - [29/May/2025 23:28:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:23,882 127.0.0.1 - - [29/May/2025 23:28:23] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:28:23,885 127.0.0.1 - - [29/May/2025 23:28:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:23,887 127.0.0.1 - - [29/May/2025 23:28:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:23,889 127.0.0.1 - - [29/May/2025 23:28:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:23,892 127.0.0.1 - - [29/May/2025 23:28:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:23,896 127.0.0.1 - - [29/May/2025 23:28:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:23,905 127.0.0.1 - - [29/May/2025 23:28:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:25,840 127.0.0.1 - - [29/May/2025 23:28:25] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:28:25,878 127.0.0.1 - - [29/May/2025 23:28:25] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:28:25,888 127.0.0.1 - - [29/May/2025 23:28:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:25,896 127.0.0.1 - - [29/May/2025 23:28:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:25,898 127.0.0.1 - - [29/May/2025 23:28:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:25,901 127.0.0.1 - - [29/May/2025 23:28:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:25,903 127.0.0.1 - - [29/May/2025 23:28:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:26,774 127.0.0.1 - - [29/May/2025 23:28:26] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:28:26,806 127.0.0.1 - - [29/May/2025 23:28:26] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:28:26,832 127.0.0.1 - - [29/May/2025 23:28:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:26,834 127.0.0.1 - - [29/May/2025 23:28:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:26,837 127.0.0.1 - - [29/May/2025 23:28:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:26,840 127.0.0.1 - - [29/May/2025 23:28:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:26,844 127.0.0.1 - - [29/May/2025 23:28:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:27,337 127.0.0.1 - - [29/May/2025 23:28:27] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:28:27,390 127.0.0.1 - - [29/May/2025 23:28:27] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:28:27,393 127.0.0.1 - - [29/May/2025 23:28:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:27,399 127.0.0.1 - - [29/May/2025 23:28:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:27,401 127.0.0.1 - - [29/May/2025 23:28:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:27,407 127.0.0.1 - - [29/May/2025 23:28:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:27,410 127.0.0.1 - - [29/May/2025 23:28:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:27,948 127.0.0.1 - - [29/May/2025 23:28:27] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:28:28,003 127.0.0.1 - - [29/May/2025 23:28:28] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:28:28,009 127.0.0.1 - - [29/May/2025 23:28:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:28:28,012 127.0.0.1 - - [29/May/2025 23:28:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:28,015 127.0.0.1 - - [29/May/2025 23:28:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:28,018 127.0.0.1 - - [29/May/2025 23:28:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:28:28,022 127.0.0.1 - - [29/May/2025 23:28:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:29:50,881 127.0.0.1 - - [29/May/2025 23:29:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-29 23:29:50,891 127.0.0.1 - - [29/May/2025 23:29:50] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-05-29 23:29:50,987 127.0.0.1 - - [29/May/2025 23:29:50] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-05-29 23:29:50,992 127.0.0.1 - - [29/May/2025 23:29:50] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-05-29 23:30:06,640 127.0.0.1 - - [29/May/2025 23:30:06] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:30:06,826 127.0.0.1 - - [29/May/2025 23:30:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-29 23:30:06,828 127.0.0.1 - - [29/May/2025 23:30:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:06,831 127.0.0.1 - - [29/May/2025 23:30:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-05-29 23:30:06,982 127.0.0.1 - - [29/May/2025 23:30:06] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-05-29 23:30:07,077 127.0.0.1 - - [29/May/2025 23:30:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:17,232 127.0.0.1 - - [29/May/2025 23:30:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:17,233 127.0.0.1 - - [29/May/2025 23:30:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:17,406 127.0.0.1 - - [29/May/2025 23:30:17] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-05-29 23:30:17,415 127.0.0.1 - - [29/May/2025 23:30:17] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-05-29 23:30:19,927 127.0.0.1 - - [29/May/2025 23:30:19] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:30:19,978 127.0.0.1 - - [29/May/2025 23:30:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:19,980 127.0.0.1 - - [29/May/2025 23:30:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:19,982 127.0.0.1 - - [29/May/2025 23:30:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:20,065 127.0.0.1 - - [29/May/2025 23:30:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:20,089 127.0.0.1 - - [29/May/2025 23:30:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:35,989 127.0.0.1 - - [29/May/2025 23:30:35] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-05-29 23:30:35,993 127.0.0.1 - - [29/May/2025 23:30:35] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-05-29 23:30:36,042 127.0.0.1 - - [29/May/2025 23:30:36] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-05-29 23:30:42,113 127.0.0.1 - - [29/May/2025 23:30:42] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:30:43,822 127.0.0.1 - - [29/May/2025 23:30:43] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:30:45,759 127.0.0.1 - - [29/May/2025 23:30:45] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:30:45,816 127.0.0.1 - - [29/May/2025 23:30:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:45,817 127.0.0.1 - - [29/May/2025 23:30:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:45,820 127.0.0.1 - - [29/May/2025 23:30:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:45,831 127.0.0.1 - - [29/May/2025 23:30:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:45,907 127.0.0.1 - - [29/May/2025 23:30:45] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:30:45,940 127.0.0.1 - - [29/May/2025 23:30:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:47,864 127.0.0.1 - - [29/May/2025 23:30:47] "GET /static/manifest.json HTTP/1.1" 200 -
+2025-05-29 23:30:48,652 127.0.0.1 - - [29/May/2025 23:30:48] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:30:48,682 127.0.0.1 - - [29/May/2025 23:30:48] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:30:48,696 127.0.0.1 - - [29/May/2025 23:30:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:48,711 127.0.0.1 - - [29/May/2025 23:30:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:48,715 127.0.0.1 - - [29/May/2025 23:30:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:48,716 127.0.0.1 - - [29/May/2025 23:30:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:48,719 127.0.0.1 - - [29/May/2025 23:30:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:49,385 127.0.0.1 - - [29/May/2025 23:30:49] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:30:49,421 127.0.0.1 - - [29/May/2025 23:30:49] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:30:49,436 127.0.0.1 - - [29/May/2025 23:30:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:49,438 127.0.0.1 - - [29/May/2025 23:30:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:49,441 127.0.0.1 - - [29/May/2025 23:30:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:49,443 127.0.0.1 - - [29/May/2025 23:30:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:30:49,446 127.0.0.1 - - [29/May/2025 23:30:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:30:55,993 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.173:5000
+2025-05-29 23:30:55,993 [33mPress CTRL+C to quit[0m
+2025-05-29 23:30:55,994  * Restarting with stat
+2025-05-29 23:30:56,233  * Debugger is active!
+2025-05-29 23:30:56,233  * Debugger PIN: 129-233-646
+2025-05-29 23:30:58,130 127.0.0.1 - - [29/May/2025 23:30:58] "GET / HTTP/1.1" 200 -
+2025-05-29 23:30:58,162 127.0.0.1 - - [29/May/2025 23:30:58] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:30:58,186 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-29 23:30:58,187 127.0.0.1 - - [29/May/2025 23:30:58] "POST /csp_report HTTP/1.1" 200 -
+2025-05-29 23:30:58,190 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-29 23:30:58,191 127.0.0.1 - - [29/May/2025 23:30:58] "POST /csp_report HTTP/1.1" 200 -
+2025-05-29 23:31:03,725 127.0.0.1 - - [29/May/2025 23:31:03] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-29 23:31:04,109 127.0.0.1 - - [29/May/2025 23:31:04] "GET /index.html HTTP/1.1" 200 -
+2025-05-29 23:31:04,183 127.0.0.1 - - [29/May/2025 23:31:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:31:04,192 127.0.0.1 - - [29/May/2025 23:31:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:31:04,194 127.0.0.1 - - [29/May/2025 23:31:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:31:04,195 127.0.0.1 - - [29/May/2025 23:31:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:31:04,196 127.0.0.1 - - [29/May/2025 23:31:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:31:04,200 127.0.0.1 - - [29/May/2025 23:31:04] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:31:06,402 127.0.0.1 - - [29/May/2025 23:31:06] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:31:06,448 127.0.0.1 - - [29/May/2025 23:31:06] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:31:06,452 127.0.0.1 - - [29/May/2025 23:31:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:31:06,454 127.0.0.1 - - [29/May/2025 23:31:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:31:06,456 127.0.0.1 - - [29/May/2025 23:31:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:31:06,459 127.0.0.1 - - [29/May/2025 23:31:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:31:06,464 127.0.0.1 - - [29/May/2025 23:31:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:31:08,554 127.0.0.1 - - [29/May/2025 23:31:08] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:31:08,608 127.0.0.1 - - [29/May/2025 23:31:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:31:08,612 127.0.0.1 - - [29/May/2025 23:31:08] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:31:08,614 127.0.0.1 - - [29/May/2025 23:31:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:31:08,617 127.0.0.1 - - [29/May/2025 23:31:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:31:08,619 127.0.0.1 - - [29/May/2025 23:31:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:31:08,622 127.0.0.1 - - [29/May/2025 23:31:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:31:54,280  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-29 23:31:54,314  * Restarting with stat
+2025-05-29 23:31:54,551  * Debugger is active!
+2025-05-29 23:31:54,551  * Debugger PIN: 129-233-646
+2025-05-29 23:31:54,989 127.0.0.1 - - [29/May/2025 23:31:54] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:31:55,086 127.0.0.1 - - [29/May/2025 23:31:55] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:32:10,932 127.0.0.1 - - [29/May/2025 23:32:10] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:33:00,288 127.0.0.1 - - [29/May/2025 23:33:00] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:33:00,411  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-29 23:33:00,456  * Restarting with stat
+2025-05-29 23:33:00,708  * Debugger is active!
+2025-05-29 23:33:00,708  * Debugger PIN: 129-233-646
+2025-05-29 23:33:04,454 127.0.0.1 - - [29/May/2025 23:33:04] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:33:04,520 127.0.0.1 - - [29/May/2025 23:33:04] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:33:04,521 127.0.0.1 - - [29/May/2025 23:33:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:33:04,529 127.0.0.1 - - [29/May/2025 23:33:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:33:04,531 127.0.0.1 - - [29/May/2025 23:33:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:33:04,535 127.0.0.1 - - [29/May/2025 23:33:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:33:04,618 127.0.0.1 - - [29/May/2025 23:33:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:33:05,872 127.0.0.1 - - [29/May/2025 23:33:05] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:33:05,907 127.0.0.1 - - [29/May/2025 23:33:05] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:33:08,684 127.0.0.1 - - [29/May/2025 23:33:08] "GET /static/manifest.json HTTP/1.1" 200 -
+2025-05-29 23:34:33,894 127.0.0.1 - - [29/May/2025 23:34:33] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:34:33,925 127.0.0.1 - - [29/May/2025 23:34:33] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:38:35,405 127.0.0.1 - - [29/May/2025 23:38:35] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:38:35,527 127.0.0.1 - - [29/May/2025 23:38:35] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:38:40,299 127.0.0.1 - - [29/May/2025 23:38:40] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:38:41,190 127.0.0.1 - - [29/May/2025 23:38:41] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:38:42,371 127.0.0.1 - - [29/May/2025 23:38:42] "GET /index.html HTTP/1.1" 200 -
+2025-05-29 23:38:42,474 127.0.0.1 - - [29/May/2025 23:38:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:38:42,476 127.0.0.1 - - [29/May/2025 23:38:42] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:38:42,481 127.0.0.1 - - [29/May/2025 23:38:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:38:42,483 127.0.0.1 - - [29/May/2025 23:38:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:38:42,485 127.0.0.1 - - [29/May/2025 23:38:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:38:42,547 127.0.0.1 - - [29/May/2025 23:38:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:38:44,007 127.0.0.1 - - [29/May/2025 23:38:44] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:38:44,037 127.0.0.1 - - [29/May/2025 23:38:44] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,337 127.0.0.1 - - [29/May/2025 23:38:45] "GET /index.html HTTP/1.1" 200 -
+2025-05-29 23:38:45,411 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,419 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,420 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,421 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,422 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,426 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,430 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,433 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,438 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,451 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:38:45,453 127.0.0.1 - - [29/May/2025 23:38:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:38:46,177 127.0.0.1 - - [29/May/2025 23:38:46] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-29 23:38:46,951 127.0.0.1 - - [29/May/2025 23:38:46] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -

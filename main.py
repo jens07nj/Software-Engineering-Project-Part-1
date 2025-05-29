@@ -126,7 +126,7 @@ def screenform():
         )
 
         #  Return a simple success message
-        return "Form submitted successfully!"
+        return render_template ("/index.html")
     return render_template("/screenform.html")
 # Endpoint for logging CSP violations
 @app.route("/csp_report", methods=["POST"])
