@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add User</title>
+  </head>
+  <body>
+    <h1>Add a New User</h1>
+
+    {% if error %}
+    <p style="color: red">{{ error }}</p>
+    {% endif %} {% if success %}
+    <p style="color: green">User added successfully!</p>
+    {% endif %}
+
+    <form action="/AddUser.html" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" name="username" required /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" required /><br /><br />
+
+      <button type="submit">Add User</button>
+    </form>
+  </body>
+</html>

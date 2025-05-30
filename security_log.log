@@ -1426,3 +1426,258 @@
 2025-05-29 23:46:49,950 127.0.0.1 - - [29/May/2025 23:46:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
 2025-05-29 23:46:49,953 127.0.0.1 - - [29/May/2025 23:46:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2025-05-29 23:46:49,956 127.0.0.1 - - [29/May/2025 23:46:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 00:05:51,011  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:05:51,046  * Restarting with stat
+2025-05-30 00:05:51,275  * Debugger is active!
+2025-05-30 00:05:51,276  * Debugger PIN: 129-233-646
+2025-05-30 00:06:20,710  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:06:20,744  * Restarting with stat
+2025-05-30 00:06:20,977  * Debugger is active!
+2025-05-30 00:06:20,978  * Debugger PIN: 129-233-646
+2025-05-30 00:07:50,419  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:07:50,472  * Restarting with stat
+2025-05-30 00:07:50,765  * Debugger is active!
+2025-05-30 00:07:50,765  * Debugger PIN: 129-233-646
+2025-05-30 00:08:00,344  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:08:00,382  * Restarting with stat
+2025-05-30 00:08:00,686  * Debugger is active!
+2025-05-30 00:08:00,687  * Debugger PIN: 129-233-646
+2025-05-30 00:08:08,626  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:08:08,661  * Restarting with stat
+2025-05-30 00:08:08,897  * Debugger is active!
+2025-05-30 00:08:08,897  * Debugger PIN: 129-233-646
+2025-05-30 00:09:25,459  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:09:25,497  * Restarting with stat
+2025-05-30 00:09:25,731  * Debugger is active!
+2025-05-30 00:09:25,731  * Debugger PIN: 129-233-646
+2025-05-30 00:10:01,076  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:10:01,117  * Restarting with stat
+2025-05-30 00:10:01,356  * Debugger is active!
+2025-05-30 00:10:01,356  * Debugger PIN: 129-233-646
+2025-05-30 00:10:03,387 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.173:5000
+2025-05-30 00:10:03,387 [33mPress CTRL+C to quit[0m
+2025-05-30 00:10:03,388  * Restarting with stat
+2025-05-30 00:10:03,629  * Debugger is active!
+2025-05-30 00:10:03,629  * Debugger PIN: 129-233-646
+2025-05-30 00:10:07,483 127.0.0.1 - - [30/May/2025 00:10:07] "GET / HTTP/1.1" 200 -
+2025-05-30 00:10:07,626 127.0.0.1 - - [30/May/2025 00:10:07] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 00:10:07,654 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 00:10:07,654 127.0.0.1 - - [30/May/2025 00:10:07] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 00:10:07,670 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 00:10:07,670 127.0.0.1 - - [30/May/2025 00:10:07] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 00:10:13,473 127.0.0.1 - - [30/May/2025 00:10:13] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-30 00:10:14,028 127.0.0.1 - - [30/May/2025 00:10:14] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 00:10:14,087 127.0.0.1 - - [30/May/2025 00:10:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 00:10:14,103 127.0.0.1 - - [30/May/2025 00:10:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 00:10:14,106 127.0.0.1 - - [30/May/2025 00:10:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 00:10:14,109 127.0.0.1 - - [30/May/2025 00:10:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 00:10:14,113 127.0.0.1 - - [30/May/2025 00:10:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 00:10:14,115 127.0.0.1 - - [30/May/2025 00:10:14] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 00:10:47,476  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:10:47,524  * Restarting with stat
+2025-05-30 00:10:47,759  * Debugger is active!
+2025-05-30 00:10:47,759  * Debugger PIN: 129-233-646
+2025-05-30 00:11:38,962  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:11:39,004  * Restarting with stat
+2025-05-30 00:11:39,240  * Debugger is active!
+2025-05-30 00:11:39,241  * Debugger PIN: 129-233-646
+2025-05-30 00:11:39,685 127.0.0.1 - - [30/May/2025 00:11:39] "GET / HTTP/1.1" 200 -
+2025-05-30 00:11:39,972 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 00:11:39,973 127.0.0.1 - - [30/May/2025 00:11:39] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 00:11:39,977 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 00:11:39,978 127.0.0.1 - - [30/May/2025 00:11:39] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 00:11:44,286 127.0.0.1 - - [30/May/2025 00:11:44] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-30 00:11:44,691 127.0.0.1 - - [30/May/2025 00:11:44] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 00:11:44,752 127.0.0.1 - - [30/May/2025 00:11:44] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 00:11:44,755 127.0.0.1 - - [30/May/2025 00:11:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 00:11:44,758 127.0.0.1 - - [30/May/2025 00:11:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 00:11:44,760 127.0.0.1 - - [30/May/2025 00:11:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 00:11:44,763 127.0.0.1 - - [30/May/2025 00:11:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 00:11:44,765 127.0.0.1 - - [30/May/2025 00:11:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 00:11:58,912 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.173:5000
+2025-05-30 00:11:58,912 [33mPress CTRL+C to quit[0m
+2025-05-30 00:11:58,913  * Restarting with stat
+2025-05-30 00:11:59,143  * Debugger is active!
+2025-05-30 00:11:59,144  * Debugger PIN: 129-233-646
+2025-05-30 00:12:01,265 127.0.0.1 - - [30/May/2025 00:12:01] "GET / HTTP/1.1" 200 -
+2025-05-30 00:12:01,324 127.0.0.1 - - [30/May/2025 00:12:01] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 00:12:01,325 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 00:12:01,325 127.0.0.1 - - [30/May/2025 00:12:01] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 00:12:01,328 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 00:12:01,328 127.0.0.1 - - [30/May/2025 00:12:01] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 00:12:07,472 127.0.0.1 - - [30/May/2025 00:12:07] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-30 00:12:07,681 127.0.0.1 - - [30/May/2025 00:12:07] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 00:12:07,741 127.0.0.1 - - [30/May/2025 00:12:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 00:12:07,744 127.0.0.1 - - [30/May/2025 00:12:07] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 00:12:07,746 127.0.0.1 - - [30/May/2025 00:12:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 00:12:07,748 127.0.0.1 - - [30/May/2025 00:12:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 00:12:07,751 127.0.0.1 - - [30/May/2025 00:12:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 00:12:07,755 127.0.0.1 - - [30/May/2025 00:12:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 00:12:25,659  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 00:12:25,700  * Restarting with stat
+2025-05-30 00:12:25,953  * Debugger is active!
+2025-05-30 00:12:25,953  * Debugger PIN: 129-233-646
+2025-05-30 01:06:03,031 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.78:5000
+2025-05-30 01:06:03,060 [33mPress CTRL+C to quit[0m
+2025-05-30 01:06:03,061  * Restarting with stat
+2025-05-30 01:06:03,331  * Debugger is active!
+2025-05-30 01:06:03,332  * Debugger PIN: 110-115-621
+2025-05-30 01:06:09,570 127.0.0.1 - - [30/May/2025 01:06:09] "GET / HTTP/1.1" 200 -
+2025-05-30 01:06:09,821 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 01:06:09,821 127.0.0.1 - - [30/May/2025 01:06:09] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 01:06:09,827 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 01:06:09,827 127.0.0.1 - - [30/May/2025 01:06:09] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 01:06:15,665 127.0.0.1 - - [30/May/2025 01:06:15] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-30 01:06:16,178 127.0.0.1 - - [30/May/2025 01:06:16] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 01:06:16,275 127.0.0.1 - - [30/May/2025 01:06:16] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:06:16,278 127.0.0.1 - - [30/May/2025 01:06:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:06:16,280 127.0.0.1 - - [30/May/2025 01:06:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:06:16,282 127.0.0.1 - - [30/May/2025 01:06:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:06:16,284 127.0.0.1 - - [30/May/2025 01:06:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:06:16,371 127.0.0.1 - - [30/May/2025 01:06:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:06:18,332 127.0.0.1 - - [30/May/2025 01:06:18] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:06:18,358 127.0.0.1 - - [30/May/2025 01:06:18] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:06:27,602 127.0.0.1 - - [30/May/2025 01:06:27] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:06:27,667 127.0.0.1 - - [30/May/2025 01:06:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:06:27,668 127.0.0.1 - - [30/May/2025 01:06:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:06:27,675 127.0.0.1 - - [30/May/2025 01:06:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:06:27,678 127.0.0.1 - - [30/May/2025 01:06:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:06:27,685 127.0.0.1 - - [30/May/2025 01:06:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:10:28,207 127.0.0.1 - - [30/May/2025 01:10:28] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:10:28,331 127.0.0.1 - - [30/May/2025 01:10:28] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:10:35,510 127.0.0.1 - - [30/May/2025 01:10:35] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:10:35,574 127.0.0.1 - - [30/May/2025 01:10:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:10:35,589 127.0.0.1 - - [30/May/2025 01:10:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:10:35,688 127.0.0.1 - - [30/May/2025 01:10:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:10:35,709 127.0.0.1 - - [30/May/2025 01:10:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:10:35,719 127.0.0.1 - - [30/May/2025 01:10:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:13:08,062  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 01:13:08,101  * Restarting with stat
+2025-05-30 01:13:08,346  * Debugger is active!
+2025-05-30 01:13:08,347  * Debugger PIN: 110-115-621
+2025-05-30 01:15:15,377  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 01:15:15,418  * Restarting with stat
+2025-05-30 01:15:15,649  * Debugger is active!
+2025-05-30 01:15:15,650  * Debugger PIN: 110-115-621
+2025-05-30 01:19:00,468  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 01:19:00,498  * Restarting with stat
+2025-05-30 01:19:00,729  * Debugger is active!
+2025-05-30 01:19:00,729  * Debugger PIN: 110-115-621
+2025-05-30 01:19:50,814 127.0.0.1 - - [30/May/2025 01:19:50] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:19:50,937 127.0.0.1 - - [30/May/2025 01:19:50] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:19:56,579 127.0.0.1 - - [30/May/2025 01:19:56] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:19:56,661 127.0.0.1 - - [30/May/2025 01:19:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:19:56,666 127.0.0.1 - - [30/May/2025 01:19:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:19:56,820 127.0.0.1 - - [30/May/2025 01:19:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:19:56,832 127.0.0.1 - - [30/May/2025 01:19:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:19:56,849 127.0.0.1 - - [30/May/2025 01:19:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:21:49,545  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 01:21:49,580  * Restarting with stat
+2025-05-30 01:21:49,815  * Debugger is active!
+2025-05-30 01:21:49,815  * Debugger PIN: 110-115-621
+2025-05-30 01:21:50,265 127.0.0.1 - - [30/May/2025 01:21:50] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:21:50,430 127.0.0.1 - - [30/May/2025 01:21:50] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:21:56,643 127.0.0.1 - - [30/May/2025 01:21:56] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:23:06,546 127.0.0.1 - - [30/May/2025 01:23:06] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:23:25,367 127.0.0.1 - - [30/May/2025 01:23:25] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:23:34,927 127.0.0.1 - - [30/May/2025 01:23:34] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 01:23:34,987 127.0.0.1 - - [30/May/2025 01:23:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:23:34,997 127.0.0.1 - - [30/May/2025 01:23:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:23:35,001 127.0.0.1 - - [30/May/2025 01:23:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:23:35,006 127.0.0.1 - - [30/May/2025 01:23:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:23:35,009 127.0.0.1 - - [30/May/2025 01:23:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:23:35,079 127.0.0.1 - - [30/May/2025 01:23:35] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:26:04,718 127.0.0.1 - - [30/May/2025 01:26:04] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 01:26:04,792 127.0.0.1 - - [30/May/2025 01:26:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:26:05,006 127.0.0.1 - - [30/May/2025 01:26:05] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:26:05,019 127.0.0.1 - - [30/May/2025 01:26:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:26:05,060 127.0.0.1 - - [30/May/2025 01:26:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:26:05,074 127.0.0.1 - - [30/May/2025 01:26:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:26:05,090 127.0.0.1 - - [30/May/2025 01:26:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:26:07,477 127.0.0.1 - - [30/May/2025 01:26:07] "[33mGET /logout HTTP/1.1[0m" 404 -
+2025-05-30 01:27:03,963  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 01:27:04,000  * Restarting with stat
+2025-05-30 01:27:04,234  * Debugger is active!
+2025-05-30 01:27:04,234  * Debugger PIN: 110-115-621
+2025-05-30 01:27:04,666 127.0.0.1 - - [30/May/2025 01:27:04] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 01:27:06,166 127.0.0.1 - - [30/May/2025 01:27:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-30 01:27:06,208 127.0.0.1 - - [30/May/2025 01:27:06] "GET /login.html HTTP/1.1" 200 -
+2025-05-30 01:27:06,260 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/login.html","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/login.html","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/index.html","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 01:27:06,263 127.0.0.1 - - [30/May/2025 01:27:06] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 01:27:06,263 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/login.html","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/login.html","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/index.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 01:27:06,264 127.0.0.1 - - [30/May/2025 01:27:06] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 01:27:12,676 127.0.0.1 - - [30/May/2025 01:27:12] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-30 01:27:13,065 127.0.0.1 - - [30/May/2025 01:27:13] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 01:27:13,134 127.0.0.1 - - [30/May/2025 01:27:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:27:13,135 127.0.0.1 - - [30/May/2025 01:27:13] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:27:13,136 127.0.0.1 - - [30/May/2025 01:27:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:27:13,139 127.0.0.1 - - [30/May/2025 01:27:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:27:13,143 127.0.0.1 - - [30/May/2025 01:27:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:27:13,146 127.0.0.1 - - [30/May/2025 01:27:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:31:31,654  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 01:31:31,685  * Restarting with stat
+2025-05-30 01:46:29,890 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.78:5000
+2025-05-30 01:46:29,890 [33mPress CTRL+C to quit[0m
+2025-05-30 01:46:29,891  * Restarting with stat
+2025-05-30 01:46:30,133  * Debugger is active!
+2025-05-30 01:46:30,133  * Debugger PIN: 110-115-621
+2025-05-30 01:46:32,388 127.0.0.1 - - [30/May/2025 01:46:32] "GET / HTTP/1.1" 200 -
+2025-05-30 01:46:32,547 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 01:46:32,548 127.0.0.1 - - [30/May/2025 01:46:32] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 01:46:32,549 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 01:46:32,549 127.0.0.1 - - [30/May/2025 01:46:32] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 01:46:41,747 127.0.0.1 - - [30/May/2025 01:46:41] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-30 01:46:42,279 127.0.0.1 - - [30/May/2025 01:46:42] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 01:46:42,347 127.0.0.1 - - [30/May/2025 01:46:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:46:42,349 127.0.0.1 - - [30/May/2025 01:46:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:46:42,352 127.0.0.1 - - [30/May/2025 01:46:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:46:42,356 127.0.0.1 - - [30/May/2025 01:46:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:46:42,357 127.0.0.1 - - [30/May/2025 01:46:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:46:42,407 127.0.0.1 - - [30/May/2025 01:46:42] "GET /static/manifest.json HTTP/1.1" 200 -
+2025-05-30 01:46:48,576 127.0.0.1 - - [30/May/2025 01:46:48] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:46:48,604 127.0.0.1 - - [30/May/2025 01:46:48] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:46:55,405 127.0.0.1 - - [30/May/2025 01:46:55] "POST /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:56:50,117  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 01:56:50,149  * Restarting with stat
+2025-05-30 01:56:50,369  * Debugger is active!
+2025-05-30 01:56:50,370  * Debugger PIN: 110-115-621
+2025-05-30 01:57:09,089 127.0.0.1 - - [30/May/2025 01:57:09] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-30 01:58:27,124  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-05-30 01:58:27,159  * Restarting with stat
+2025-05-30 01:59:51,476 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.78:5000
+2025-05-30 01:59:51,476 [33mPress CTRL+C to quit[0m
+2025-05-30 01:59:51,477  * Restarting with stat
+2025-05-30 01:59:51,705  * Debugger is active!
+2025-05-30 01:59:51,706  * Debugger PIN: 110-115-621
+2025-05-30 01:59:54,044 127.0.0.1 - - [30/May/2025 01:59:54] "GET / HTTP/1.1" 200 -
+2025-05-30 01:59:54,172 127.0.0.1 - - [30/May/2025 01:59:54] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 01:59:54,234 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 01:59:54,234 127.0.0.1 - - [30/May/2025 01:59:54] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 01:59:54,236 {"type":"csp-violation","url":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","csp-report":{"document-uri":"https://potential-space-couscous-jjr7vj76p5xgfp4qq-5000.app.github.dev/","referrer":"https://potential-space-couscous-jjr7vj76p5xgfp4qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","blocked-uri":"inline","status-code":0}}
+2025-05-30 01:59:54,236 127.0.0.1 - - [30/May/2025 01:59:54] "POST /csp_report HTTP/1.1" 200 -
+2025-05-30 01:59:59,848 127.0.0.1 - - [30/May/2025 01:59:59] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-05-30 02:00:00,275 127.0.0.1 - - [30/May/2025 02:00:00] "GET /index.html HTTP/1.1" 200 -
+2025-05-30 02:00:00,340 127.0.0.1 - - [30/May/2025 02:00:00] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 02:00:00,343 127.0.0.1 - - [30/May/2025 02:00:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 02:00:00,346 127.0.0.1 - - [30/May/2025 02:00:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 02:00:00,348 127.0.0.1 - - [30/May/2025 02:00:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 02:00:00,351 127.0.0.1 - - [30/May/2025 02:00:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 02:00:00,354 127.0.0.1 - - [30/May/2025 02:00:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 02:00:02,174 127.0.0.1 - - [30/May/2025 02:00:02] "GET /screenform.html HTTP/1.1" 200 -
+2025-05-30 02:00:02,203 127.0.0.1 - - [30/May/2025 02:00:02] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2025-05-30 02:00:07,072 127.0.0.1 - - [30/May/2025 02:00:07] "POST /screenform.html HTTP/1.1" 200 -

@@ -1,7 +1,9 @@
 -- database: ./database.db
 
 -- CREATE TABLE id7-tusers(id INTEGER PRIMARY KEY autoincrement,username TEXT NOT NULL UNIQUE, password TEXT NOT NULL);
-INSERT INTO ScreenData(Pretester TEXT Not null, RecordedTime datetime not null, Patientid , ScreenCompletion, HearingLoss, Booked, PlsCall, ReasonDeclined TEXT)
+UPDATE Staff
+SET staff_role = 'Admin'
+WHERE Username == 'pass';
 -- INSERT INTO id7-tusers(username,password) VALUES ("","");
 
 -- SELECT * FROM extension;

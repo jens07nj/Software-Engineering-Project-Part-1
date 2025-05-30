@@ -7,9 +7,10 @@ import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import logging
-from flask import sessions
+from flask import session
 import userManagement as dbHandler
 import datetime
+
 # Code snippet for logging a message
 # app.logger.critical("message")
 
@@ -69,23 +70,62 @@ def root():
 )
 
 
+
+#@app.route("/AddUser.html", methods=["POST", "GET", "PUT", "PATCH", "DELETE"])
+
+# def AddUser():
+#     # Redirect to another URL if the `url` parameter is used
+#     if request.method == "GET" and request.args.get("url"):
+#         url = request.args.get("url", "")
+#         return redirect(url, code=302)
+
+#     # If the form is submitted (POST)
+#     if request.method == "POST":
+#         username = request.form["username"]
+#         password = request.form["password"]
+
+#         # Sanitize username
+#         username = sanitiser.make_web_safe(username)
+
+#         try:
+#             # Validate and encode password
+#             password = sanitiser.check_password(password)
+#         except ValueError as e:
+#             return render_template("AddUser.html", error=str(e))
+
+#         # Hash password with salt
+#         salt = bcrypt.gensalt()
+#         hashed_password = bcrypt.hashpw(password=password, salt=salt)
+
+#         # Store in database
+#         dbHandler.insertUser(username, hashed_password, salt)
+
+#         return render_template("AddUser.html", success=True)
+
+#     return render_template("AddUser.html")
+
 def login():
     error = None
     if request.method == "POST":
         username = request.form.get("username")
         password = request.form.get("password")
-        # Replace this with your real authentication logic
+
         if dbHandler.validate_user(username, password):
-            print (username, password)
-            #sessions['username'] = username
+            session["username"] = username  # Store the username in the session
+            current_user = session["username"]
+            print (current_user)
             return redirect("/index.html")
         else:
             error = "Invalid username or password."
-    return render_template("login.html", error=error)
 
+    return render_template("login.html", error=error)
 def index():
     return render_template("/index.html")
 
+@app.route("/logout")
+def logout():
+    session.clear()
+    return redirect("/login.html")
 
 @app.route("/privacy.html", methods=["GET"])
 def privacy():
@@ -103,7 +143,7 @@ def screenform():
         #pretester = sessions["username"]
 
         #  Collect form data submitted by the user
-        pretester = "pass"
+        pretester = session.get("username")
         patient_id = request.form.get("patient_id")   
         recorded_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")                # Text field
         screen_complete = request.form.get("screen_complete") == "yes"  # Convert to boolean
@@ -126,7 +166,7 @@ def screenform():
         )
 
         #  Return a simple success message
-        return render_template ("/index.html")
+        return render_template("/screenform.html", username =session.get("username"), submitted = True)
     return render_template("/screenform.html")
 # Endpoint for logging CSP violations
 @app.route("/csp_report", methods=["POST"])
