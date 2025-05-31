@@ -12,6 +12,7 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -41,13 +42,21 @@
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
+
+      <!-- Add User Button -->
+      <form action="/AddUser" method="get" style="display: inline">
+        <button type="submit" class="btn btn-outline-danger me-2">
+          Add User
+        </button>
+      </form>
+
+      <!-- Logout Button -->
       <form action="/logout" method="get" style="display: inline">
-        <button type="submit">Logout</button>
+        <button type="submit" class="btn btn-outline-danger">Logout</button>
       </form>
-      form action="/AddUser" method="get" style="display: inline">
-        <button type="submit">Admin</button>
-      </form>
-      <form class="d-flex" role="search">
+
+      <!-- Search Form -->
+      <form class="d-flex ms-3" role="search">
         <input
           class="form-control me-2"
           type="search"

@@ -10,13 +10,13 @@ def getUsers():
     con.close()
     return cur
 
-def addUser(Username, password):
+def AddUser(Username, password):
     con = sql.connect("databaseFiles/database.db")
     cur = con.cursor()
-    hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-    cur.execute("INSERT INTO Staff (Username, password) VALUES (?, ?)", (Username, hashed_password))
-    con.commit()
+    cur.execute("INSERT INTO Staff (Username, password) VALUES (?,?);", (Username, password))
+    con.commit() 
     con.close()
+
 def validate_user(Username, password):
     con = sql.connect("databaseFiles/database.db")
     cur = con.cursor()
@@ -55,6 +55,7 @@ def insert_screen_data(pretester, patient_id, screen_complete, reason_declined, 
     pls_call,
     reason_declined
 ))
+
 
 #def insert_screen_data(pretester, patient_id, screen_complete, reason_declined, hearing_loss, booked, pls_call, recorded_time):
 

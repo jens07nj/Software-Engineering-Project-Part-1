@@ -4,22 +4,24 @@
     <title>Add User</title>
   </head>
   <body>
-    <h1>Add a New User</h1>
-
+    <h2>Add New User</h2>
     {% if error %}
     <p style="color: red">{{ error }}</p>
     {% endif %} {% if success %}
-    <p style="color: green">User added successfully!</p>
+    <p style="color: green">User successfully added!</p>
     {% endif %}
 
-    <form action="/AddUser.html" method="POST">
-      <label for="username">Username:</label>
-      <input type="text" name="username" required /><br /><br />
-
-      <label for="password">Password:</label>
-      <input type="password" name="password" required /><br /><br />
-
+    <form method="POST" action="/AddUser">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" name="username" required />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required />
+      </div>
       <button type="submit">Add User</button>
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
     </form>
   </body>
 </html>

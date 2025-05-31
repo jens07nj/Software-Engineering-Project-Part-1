@@ -1,9 +1,8 @@
 -- database: ./database.db
 
 -- CREATE TABLE id7-tusers(id INTEGER PRIMARY KEY autoincrement,username TEXT NOT NULL UNIQUE, password TEXT NOT NULL);
-UPDATE Staff
-SET staff_role = 'Admin'
-WHERE Username == 'pass';
+
+INSERT INTO Staff (Username,password) VALUES ("test3","test2");
 -- INSERT INTO id7-tusers(username,password) VALUES ("","");
 
 -- SELECT * FROM extension;
