@@ -10,6 +10,16 @@ def getUsers():
     con.close()
     return cur
 
+def get_user_role(username):
+    con = sql.connect("databaseFiles/database.db")
+    cur = con.cursor()
+    cur.execute("SELECT staff_role FROM Staff WHERE Username = ?", (username,))
+    row = cur.fetchone()
+    con.close()
+    # Return a plain string (or None if not found)
+    return row[0] if row else None
+
+
 def AddUser(Username, password):
     con = sql.connect("databaseFiles/database.db")
     cur = con.cursor()

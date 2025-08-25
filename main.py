@@ -7,7 +7,7 @@ import logging
 import userManagement as dbHandler  # Custom module to handle database functions
 import datetime
 import bcrypt
-
+import sqlite3 as sql
 # Setup logging to a file for CSP and security events
 app_log = logging.getLogger(__name__)
 logging.basicConfig(
@@ -21,6 +21,9 @@ logging.basicConfig(
 app = Flask(__name__)
 app.secret_key = b"_53oi3uriq9pifpff;apl"  # Secret key for session security
 csrf = CSRFProtect(app)
+def inject_role():
+    # injects role into every template render
+    return {"staff_role": session.get("role")}
 
 # -------------------- ROUTES --------------------
 
@@ -131,6 +134,10 @@ def login():
         if dbHandler.validate_user(username, password):
             session["username"] = username  # Save user in session
             print(session["username"])     # Debug print
+            # get the staff role from the database
+            role = dbHandler.get_user_role(username)
+            print (role)
+            session["role"] = role  # Store role in session
             return redirect("/index.html") # Redirect to index page
         else:
             error = "Invalid username or password."  # Show error
@@ -139,7 +146,14 @@ def login():
 
 # Render index.html template
 def index():
-    return render_template("/index.html")
+    conn = sql.connect( 'databaseFiles/database.db')
+    conn. row_factory = sql.Row
+    cur = conn.cursor ()
+    cur.execute ("SELECT * FROM ScreenData ORDER BY datetime(RecordedTime) DESC" )
+    data = cur.fetchall()
+    conn.close ()
+    return render_template("/index.html", staff_role= session.get ("role"),data=data)
+
 
 @app.route("/AddUser", methods=["GET", "POST"])
 def AddUser():

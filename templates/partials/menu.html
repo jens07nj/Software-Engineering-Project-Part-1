@@ -42,14 +42,14 @@
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
-
-      <!-- Add User Button -->
+      <!-- Add User Button only for admin -->
+      {% if staff_role and staff_role|lower == "admin" %}
       <form action="/AddUser" method="get" style="display: inline">
         <button type="submit" class="btn btn-outline-danger me-2">
           Add User
         </button>
       </form>
-
+      {% endif %}
       <!-- Logout Button -->
       <form action="/logout" method="get" style="display: inline">
         <button type="submit" class="btn btn-outline-danger">Logout</button>

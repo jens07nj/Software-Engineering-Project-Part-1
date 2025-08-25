@@ -5,4 +5,34 @@
   <div class="row">
     <a href="screenform.html">Enter screen</a>
   </div>
+  {% if staff_role and staff_role|lower == "admin" %}
+  <table class="table table-striped table-bordered align-middle">
+    <thead>
+      <tr>
+        <th>Pretester</th>
+        <th>Recorded Time</th>
+        <th>Patient ID</th>
+        <th>Screen Complete</th>
+        <th>Hearing Loss</th>
+        <th>Booked</th>
+        <th>Please Call</th>
+        <th>Reason Declined</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in data %}
+      <tr>
+        <td>{{ row['Pretester'] }}</td>
+        <td>{{ row['RecordedTime'] }}</td>
+        <td>{{ row['Patientid'] }}</td>
+        <td>{{ row['ScreenCompletion'] }}</td>
+        <td>{{ row['HearingLoss'] }}</td>
+        <td>{{ row['Booked'] }}</td>
+        <td>{{ row['PlsCall'] }}</td>
+        <td>{{ row['ReasonDeclined'] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
 </div>
