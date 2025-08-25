@@ -3,6 +3,7 @@ from flask import Flask, redirect, render_template, request, jsonify, session
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import requests
+from flask import request
 import logging
 import userManagement as dbHandler  # Custom module to handle database functions
 import datetime
@@ -146,14 +147,70 @@ def login():
 
 # Render index.html template
 def index():
-    conn = sql.connect( 'databaseFiles/database.db')
-    conn. row_factory = sql.Row
-    cur = conn.cursor ()
-    cur.execute ("SELECT * FROM ScreenData ORDER BY datetime(RecordedTime) DESC" )
-    data = cur.fetchall()
-    conn.close ()
-    return render_template("/index.html", staff_role= session.get ("role"),data=data)
+    if "username" not in session:
+        return redirect("/login.html")
 
+    # Read filters from querystring (?pretester=...&screen_completion=... etc.)
+    selected_pretester = request.args.get("pretester", "All")
+    sc = request.args.get("screen_completion", "All")  # ScreenCompletion
+    hl = request.args.get("hearing_loss", "All")       # HearingLoss
+    pc = request.args.get("pls_call", "All")           # PlsCall
+
+    conn = sql.connect('databaseFiles/database.db')
+    conn.row_factory = sql.Row
+    cur = conn.cursor()
+
+    # Distinct list for Pretester dropdown
+    cur.execute("SELECT DISTINCT Pretester FROM ScreenData WHERE Pretester IS NOT NULL AND Pretester <> '' ORDER BY Pretester")
+    pretesters = [r["Pretester"] for r in cur.fetchall()]
+
+    base_sql = """
+        SELECT Pretester, RecordedTime, Patientid, ScreenCompletion,
+               HearingLoss, Booked, PlsCall, ReasonDeclined
+        FROM ScreenData
+    """
+    where, params = [], []
+
+    # Helper for "Pretester = ?"
+    def add_eq(column, value):
+        if value and value != "All":
+            where.append(f"{column} = ?")
+            params.append(value)
+
+    # Helper for tri-state boolean filters (expects Yes/No/All)
+    def add_bool(column, value):
+        if not value or value.lower() == "all":
+            return
+        if value.lower() in ("yes", "1", "true"):
+            where.append(f"{column} = 1")
+        elif value.lower() in ("no", "0", "false"):
+            where.append(f"{column} = 0")
+
+    add_eq("Pretester", selected_pretester)
+    add_bool("ScreenCompletion", sc)
+    add_bool("HearingLoss", hl)
+    add_bool("PlsCall", pc)
+
+    if where:
+        base_sql += " WHERE " + " AND ".join(where)
+
+    # Newest first; tie-breaker on rowid
+    base_sql += " ORDER BY datetime(RecordedTime) DESC, rowid DESC"
+
+    cur.execute(base_sql, params)
+    data = cur.fetchall()
+    conn.close()
+
+    return render_template(
+        "index.html",
+        data=data,
+        pretesters=pretesters,
+        selected_pretester=selected_pretester,
+        selected_screen_completion=sc,
+        selected_hearing_loss=hl,
+        selected_pls_call=pc,
+        staff_role=session.get("role"),  # keep if your templates check 'staff_role'
+    )
 
 @app.route("/AddUser", methods=["GET", "POST"])
 def AddUser():
