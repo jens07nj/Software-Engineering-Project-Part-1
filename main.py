@@ -108,7 +108,7 @@ def screenform():
             pls_call,
             recorded_time
         )
-
+        dbHandler.addPoints(pretester)
         # Reload page with confirmation message
         return render_template("/screenform.html", username=session.get("username"), submitted=True)
 

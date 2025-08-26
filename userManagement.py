@@ -23,9 +23,25 @@ def get_user_role(username):
 def AddUser(Username, password):
     con = sql.connect("databaseFiles/database.db")
     cur = con.cursor()
-    cur.execute("INSERT INTO Staff (Username, password) VALUES (?,?);", (Username, password))
-    con.commit() 
-    con.close()
+    try:
+        # Insert into Staff
+        cur.execute(
+            "INSERT INTO Staff (Username, password) VALUES (?, ?);",
+            (Username, password)
+        )
+
+        # Insert into Staff_points (defaults will set points, coffees, total_points to 0)
+        cur.execute(
+            "INSERT INTO Staff_points (Username) VALUES (?);",
+            (Username,)
+        )
+
+        con.commit()
+    except sql.IntegrityError as e:
+        print("Error inserting user:", e)
+        con.rollback()
+    finally:
+        con.close()
 
 def validate_user(Username, password):
     con = sql.connect("databaseFiles/database.db")
@@ -66,6 +82,32 @@ def insert_screen_data(pretester, patient_id, screen_complete, reason_declined, 
     reason_declined
 ))
 
+def addPoints(pretester):
+    with connect_db() as conn:
+        # Step 1: increment points & total_points
+        conn.execute("""
+            UPDATE Staff_points
+            SET points = points + 1,
+                total_points = total_points + 1
+            WHERE Staff_points.Username = ?;
+        """, (pretester,))
+        
+        # Step 2: check current points
+        cur = conn.execute("""
+            SELECT points FROM Staff_points WHERE Username = ?;
+        """, (pretester,))
+        current_points = cur.fetchone()[0]
+
+        # Step 3: rollover if needed
+        if current_points >= 100:
+            conn.execute("""
+                UPDATE Staff_points
+                SET coffees = coffees + 1,
+                    points = 0
+                WHERE Username = ?;
+            """, (pretester,))
+
+        conn.commit()
 
 #def insert_screen_data(pretester, patient_id, screen_complete, reason_declined, hearing_loss, booked, pls_call, recorded_time):
 

@@ -3357,3 +3357,574 @@
 2025-08-25 12:07:07,099 127.0.0.1 - - [25/Aug/2025 12:07:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
 2025-08-25 12:07:07,151 127.0.0.1 - - [25/Aug/2025 12:07:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2025-08-25 12:07:07,186 127.0.0.1 - - [25/Aug/2025 12:07:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:11,999 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.222:5000
+2025-08-25 23:13:11,999 [33mPress CTRL+C to quit[0m
+2025-08-25 23:13:12,000  * Restarting with stat
+2025-08-25 23:13:12,328  * Debugger is active!
+2025-08-25 23:13:12,362  * Debugger PIN: 621-353-503
+2025-08-25 23:13:18,321 127.0.0.1 - - [25/Aug/2025 23:13:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-25 23:13:18,579 127.0.0.1 - - [25/Aug/2025 23:13:18] "GET /login.html HTTP/1.1" 200 -
+2025-08-25 23:13:24,175 127.0.0.1 - - [25/Aug/2025 23:13:24] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-25 23:13:24,341 127.0.0.1 - - [25/Aug/2025 23:13:24] "GET /index.html HTTP/1.1" 200 -
+2025-08-25 23:13:24,637 127.0.0.1 - - [25/Aug/2025 23:13:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:24,820 127.0.0.1 - - [25/Aug/2025 23:13:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:24,829 127.0.0.1 - - [25/Aug/2025 23:13:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:24,886 127.0.0.1 - - [25/Aug/2025 23:13:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:24,921 127.0.0.1 - - [25/Aug/2025 23:13:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:30,409 127.0.0.1 - - [25/Aug/2025 23:13:30] "GET /index.html?pretester=jake&screen_completion=All&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-25 23:13:30,468 127.0.0.1 - - [25/Aug/2025 23:13:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:30,475 127.0.0.1 - - [25/Aug/2025 23:13:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:30,484 127.0.0.1 - - [25/Aug/2025 23:13:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:30,528 127.0.0.1 - - [25/Aug/2025 23:13:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:30,554 127.0.0.1 - - [25/Aug/2025 23:13:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:34,440 127.0.0.1 - - [25/Aug/2025 23:13:34] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-25 23:13:34,497 127.0.0.1 - - [25/Aug/2025 23:13:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:34,500 127.0.0.1 - - [25/Aug/2025 23:13:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:34,502 127.0.0.1 - - [25/Aug/2025 23:13:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:34,540 127.0.0.1 - - [25/Aug/2025 23:13:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:34,572 127.0.0.1 - - [25/Aug/2025 23:13:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:37,624 127.0.0.1 - - [25/Aug/2025 23:13:37] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=Yes&pls_call=All HTTP/1.1" 200 -
+2025-08-25 23:13:37,676 127.0.0.1 - - [25/Aug/2025 23:13:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:37,679 127.0.0.1 - - [25/Aug/2025 23:13:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:37,681 127.0.0.1 - - [25/Aug/2025 23:13:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:37,730 127.0.0.1 - - [25/Aug/2025 23:13:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:37,759 127.0.0.1 - - [25/Aug/2025 23:13:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:42,603 127.0.0.1 - - [25/Aug/2025 23:13:42] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-25 23:13:42,660 127.0.0.1 - - [25/Aug/2025 23:13:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:42,663 127.0.0.1 - - [25/Aug/2025 23:13:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:42,665 127.0.0.1 - - [25/Aug/2025 23:13:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:13:42,711 127.0.0.1 - - [25/Aug/2025 23:13:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:13:42,743 127.0.0.1 - - [25/Aug/2025 23:13:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:02,581 127.0.0.1 - - [25/Aug/2025 23:14:02] "GET /index.html?pretester=All&screen_completion=Yes&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-25 23:14:02,653 127.0.0.1 - - [25/Aug/2025 23:14:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:02,656 127.0.0.1 - - [25/Aug/2025 23:14:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:02,659 127.0.0.1 - - [25/Aug/2025 23:14:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:02,705 127.0.0.1 - - [25/Aug/2025 23:14:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:02,740 127.0.0.1 - - [25/Aug/2025 23:14:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:05,909 127.0.0.1 - - [25/Aug/2025 23:14:05] "GET /index.html?pretester=All&screen_completion=No&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-25 23:14:05,970 127.0.0.1 - - [25/Aug/2025 23:14:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:05,973 127.0.0.1 - - [25/Aug/2025 23:14:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:05,975 127.0.0.1 - - [25/Aug/2025 23:14:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:06,014 127.0.0.1 - - [25/Aug/2025 23:14:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:06,049 127.0.0.1 - - [25/Aug/2025 23:14:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:17,953 127.0.0.1 - - [25/Aug/2025 23:14:17] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-25 23:14:18,010 127.0.0.1 - - [25/Aug/2025 23:14:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:18,013 127.0.0.1 - - [25/Aug/2025 23:14:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:18,016 127.0.0.1 - - [25/Aug/2025 23:14:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:18,064 127.0.0.1 - - [25/Aug/2025 23:14:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:18,109 127.0.0.1 - - [25/Aug/2025 23:14:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:21,560 127.0.0.1 - - [25/Aug/2025 23:14:21] "GET /index.html?pretester=sam&screen_completion=All&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-25 23:14:21,615 127.0.0.1 - - [25/Aug/2025 23:14:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:21,618 127.0.0.1 - - [25/Aug/2025 23:14:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:21,621 127.0.0.1 - - [25/Aug/2025 23:14:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:21,664 127.0.0.1 - - [25/Aug/2025 23:14:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:21,701 127.0.0.1 - - [25/Aug/2025 23:14:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:24,974 127.0.0.1 - - [25/Aug/2025 23:14:24] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-25 23:14:25,028 127.0.0.1 - - [25/Aug/2025 23:14:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:25,031 127.0.0.1 - - [25/Aug/2025 23:14:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:25,034 127.0.0.1 - - [25/Aug/2025 23:14:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:14:25,074 127.0.0.1 - - [25/Aug/2025 23:14:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:14:25,104 127.0.0.1 - - [25/Aug/2025 23:14:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:17,385 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 01:16:17,385 [33mPress CTRL+C to quit[0m
+2025-08-26 01:16:17,386  * Restarting with stat
+2025-08-26 01:16:17,620  * Debugger is active!
+2025-08-26 01:16:17,620  * Debugger PIN: 140-686-435
+2025-08-26 01:16:18,092 127.0.0.1 - - [26/Aug/2025 01:16:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 01:16:18,230 127.0.0.1 - - [26/Aug/2025 01:16:18] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 01:16:23,512 127.0.0.1 - - [26/Aug/2025 01:16:23] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 01:16:23,653 127.0.0.1 - - [26/Aug/2025 01:16:23] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 01:16:23,973 127.0.0.1 - - [26/Aug/2025 01:16:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:23,990 127.0.0.1 - - [26/Aug/2025 01:16:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:16:24,008 127.0.0.1 - - [26/Aug/2025 01:16:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:16:24,062 127.0.0.1 - - [26/Aug/2025 01:16:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:24,091 127.0.0.1 - - [26/Aug/2025 01:16:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:27,243 127.0.0.1 - - [26/Aug/2025 01:16:27] "GET /index.html?pretester=All&screen_completion=Yes&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-26 01:16:27,291 127.0.0.1 - - [26/Aug/2025 01:16:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:16:27,297 127.0.0.1 - - [26/Aug/2025 01:16:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:16:27,302 127.0.0.1 - - [26/Aug/2025 01:16:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:27,344 127.0.0.1 - - [26/Aug/2025 01:16:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:27,374 127.0.0.1 - - [26/Aug/2025 01:16:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:35,572 127.0.0.1 - - [26/Aug/2025 01:16:35] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=Yes&pls_call=All HTTP/1.1" 200 -
+2025-08-26 01:16:35,642 127.0.0.1 - - [26/Aug/2025 01:16:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:35,644 127.0.0.1 - - [26/Aug/2025 01:16:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:16:35,648 127.0.0.1 - - [26/Aug/2025 01:16:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:16:35,681 127.0.0.1 - - [26/Aug/2025 01:16:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:35,711 127.0.0.1 - - [26/Aug/2025 01:16:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:16:37,615 127.0.0.1 - - [26/Aug/2025 01:16:37] "GET /AddUser HTTP/1.1" 200 -
+2025-08-26 01:16:48,621 127.0.0.1 - - [26/Aug/2025 01:16:48] "POST /AddUser HTTP/1.1" 200 -
+2025-08-26 01:16:53,060 127.0.0.1 - - [26/Aug/2025 01:16:53] "GET /AddUser HTTP/1.1" 200 -
+2025-08-26 01:19:13,182 127.0.0.1 - - [26/Aug/2025 01:19:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-26 01:19:13,434 127.0.0.1 - - [26/Aug/2025 01:19:13] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 01:19:17,839 127.0.0.1 - - [26/Aug/2025 01:19:17] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 01:19:17,990 127.0.0.1 - - [26/Aug/2025 01:19:17] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 01:19:18,100 127.0.0.1 - - [26/Aug/2025 01:19:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:19:18,277 127.0.0.1 - - [26/Aug/2025 01:19:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:19:18,281 127.0.0.1 - - [26/Aug/2025 01:19:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:18,435 127.0.0.1 - - [26/Aug/2025 01:19:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:18,461 127.0.0.1 - - [26/Aug/2025 01:19:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:32,334 127.0.0.1 - - [26/Aug/2025 01:19:32] "GET /index.html?pretester=jake&screen_completion=All&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-26 01:19:32,405 127.0.0.1 - - [26/Aug/2025 01:19:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:32,409 127.0.0.1 - - [26/Aug/2025 01:19:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:19:32,411 127.0.0.1 - - [26/Aug/2025 01:19:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:19:32,446 127.0.0.1 - - [26/Aug/2025 01:19:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:32,478 127.0.0.1 - - [26/Aug/2025 01:19:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:40,255 127.0.0.1 - - [26/Aug/2025 01:19:40] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=Yes HTTP/1.1" 200 -
+2025-08-26 01:19:40,312 127.0.0.1 - - [26/Aug/2025 01:19:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:40,314 127.0.0.1 - - [26/Aug/2025 01:19:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:19:40,317 127.0.0.1 - - [26/Aug/2025 01:19:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:19:40,365 127.0.0.1 - - [26/Aug/2025 01:19:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:40,394 127.0.0.1 - - [26/Aug/2025 01:19:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:46,849 127.0.0.1 - - [26/Aug/2025 01:19:46] "GET /index.html?pretester=All&screen_completion=Yes&hearing_loss=All&pls_call=Yes HTTP/1.1" 200 -
+2025-08-26 01:19:46,904 127.0.0.1 - - [26/Aug/2025 01:19:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:19:46,907 127.0.0.1 - - [26/Aug/2025 01:19:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:46,910 127.0.0.1 - - [26/Aug/2025 01:19:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:19:47,000 127.0.0.1 - - [26/Aug/2025 01:19:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:19:47,024 127.0.0.1 - - [26/Aug/2025 01:19:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:22:09,924  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 01:22:09,961  * Restarting with stat
+2025-08-26 01:22:10,219  * Debugger is active!
+2025-08-26 01:22:10,220  * Debugger PIN: 140-686-435
+2025-08-26 01:22:12,466 127.0.0.1 - - [26/Aug/2025 01:22:12] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=Yes&pls_call=All HTTP/1.1" 200 -
+2025-08-26 01:22:12,808 127.0.0.1 - - [26/Aug/2025 01:22:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:22:12,812 127.0.0.1 - - [26/Aug/2025 01:22:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:22:12,818 127.0.0.1 - - [26/Aug/2025 01:22:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:22:12,953 127.0.0.1 - - [26/Aug/2025 01:22:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:22:13,095 127.0.0.1 - - [26/Aug/2025 01:22:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:22:14,192 127.0.0.1 - - [26/Aug/2025 01:22:14] "GET /AddUser HTTP/1.1" 200 -
+2025-08-26 01:22:22,138 127.0.0.1 - - [26/Aug/2025 01:22:22] "[35m[1mPOST /AddUser HTTP/1.1[0m" 500 -
+2025-08-26 01:22:22,198 127.0.0.1 - - [26/Aug/2025 01:22:22] "GET /AddUser?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-26 01:22:22,200 127.0.0.1 - - [26/Aug/2025 01:22:22] "GET /AddUser?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-26 01:22:22,270 127.0.0.1 - - [26/Aug/2025 01:22:22] "GET /AddUser?__debugger__=yes&cmd=resource&f=console.png&s=t0scN1M2cjh3A53GyIm8 HTTP/1.1" 200 -
+2025-08-26 01:22:22,307 127.0.0.1 - - [26/Aug/2025 01:22:22] "GET /AddUser?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-26 01:22:38,301  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 01:22:38,338  * Restarting with stat
+2025-08-26 01:22:38,577  * Debugger is active!
+2025-08-26 01:22:38,577  * Debugger PIN: 140-686-435
+2025-08-26 01:22:40,411 127.0.0.1 - - [26/Aug/2025 01:22:40] "POST /AddUser HTTP/1.1" 200 -
+2025-08-26 01:22:45,166 127.0.0.1 - - [26/Aug/2025 01:22:45] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=Yes&pls_call=All HTTP/1.1" 200 -
+2025-08-26 01:32:37,611  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 01:32:37,642  * Restarting with stat
+2025-08-26 01:35:30,674 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 01:35:30,674 [33mPress CTRL+C to quit[0m
+2025-08-26 01:35:30,675  * Restarting with stat
+2025-08-26 01:35:30,922  * Debugger is active!
+2025-08-26 01:35:30,923  * Debugger PIN: 140-686-435
+2025-08-26 01:35:31,402 127.0.0.1 - - [26/Aug/2025 01:35:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 01:35:31,567 127.0.0.1 - - [26/Aug/2025 01:35:31] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 01:35:37,367 127.0.0.1 - - [26/Aug/2025 01:35:37] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 01:35:37,768 127.0.0.1 - - [26/Aug/2025 01:35:37] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 01:35:38,048 127.0.0.1 - - [26/Aug/2025 01:35:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:35:38,059 127.0.0.1 - - [26/Aug/2025 01:35:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:35:38,067 127.0.0.1 - - [26/Aug/2025 01:35:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:35:38,197 127.0.0.1 - - [26/Aug/2025 01:35:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:35:38,224 127.0.0.1 - - [26/Aug/2025 01:35:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:35:41,849 127.0.0.1 - - [26/Aug/2025 01:35:41] "[35m[1mGET /screenform.html HTTP/1.1[0m" 500 -
+2025-08-26 01:35:42,177 127.0.0.1 - - [26/Aug/2025 01:35:42] "GET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-26 01:35:42,191 127.0.0.1 - - [26/Aug/2025 01:35:42] "GET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-26 01:35:42,232 127.0.0.1 - - [26/Aug/2025 01:35:42] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=zRTmoNglfsrR9NNCnuXO HTTP/1.1" 200 -
+2025-08-26 01:35:42,349 127.0.0.1 - - [26/Aug/2025 01:35:42] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-26 01:36:29,180  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 01:36:29,215  * Restarting with stat
+2025-08-26 01:37:03,141 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 01:37:03,141 [33mPress CTRL+C to quit[0m
+2025-08-26 01:37:03,142  * Restarting with stat
+2025-08-26 01:37:03,387  * Debugger is active!
+2025-08-26 01:37:03,387  * Debugger PIN: 140-686-435
+2025-08-26 01:37:05,109 127.0.0.1 - - [26/Aug/2025 01:37:05] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 01:37:05,142 127.0.0.1 - - [26/Aug/2025 01:37:05] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 01:37:11,044 127.0.0.1 - - [26/Aug/2025 01:37:11] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 01:37:11,092 127.0.0.1 - - [26/Aug/2025 01:37:11] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 01:37:11,169 127.0.0.1 - - [26/Aug/2025 01:37:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:37:11,170 127.0.0.1 - - [26/Aug/2025 01:37:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:37:11,282 127.0.0.1 - - [26/Aug/2025 01:37:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:37:11,488 127.0.0.1 - - [26/Aug/2025 01:37:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:37:11,516 127.0.0.1 - - [26/Aug/2025 01:37:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:37:12,384 127.0.0.1 - - [26/Aug/2025 01:37:12] "[35m[1mGET /screenform.html HTTP/1.1[0m" 500 -
+2025-08-26 01:37:12,430 127.0.0.1 - - [26/Aug/2025 01:37:12] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:37:12,432 127.0.0.1 - - [26/Aug/2025 01:37:12] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-26 01:37:12,488 127.0.0.1 - - [26/Aug/2025 01:37:12] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=209XDdGAXlvGWjN0GKpW HTTP/1.1" 200 -
+2025-08-26 01:37:33,457  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 01:37:33,493  * Restarting with stat
+2025-08-26 01:37:33,769  * Debugger is active!
+2025-08-26 01:37:33,769  * Debugger PIN: 140-686-435
+2025-08-26 01:37:37,558 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 01:37:37,558 [33mPress CTRL+C to quit[0m
+2025-08-26 01:37:37,559  * Restarting with stat
+2025-08-26 01:37:37,826  * Debugger is active!
+2025-08-26 01:37:37,827  * Debugger PIN: 140-686-435
+2025-08-26 01:37:53,620 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 01:37:53,620 [33mPress CTRL+C to quit[0m
+2025-08-26 01:37:53,621  * Restarting with stat
+2025-08-26 01:37:53,853  * Debugger is active!
+2025-08-26 01:37:53,854  * Debugger PIN: 140-686-435
+2025-08-26 01:38:22,076  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 01:38:22,118  * Restarting with stat
+2025-08-26 01:38:22,365  * Debugger is active!
+2025-08-26 01:38:22,365  * Debugger PIN: 140-686-435
+2025-08-26 01:38:25,580 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 01:38:25,580 [33mPress CTRL+C to quit[0m
+2025-08-26 01:38:25,580  * Restarting with stat
+2025-08-26 01:38:25,817  * Debugger is active!
+2025-08-26 01:38:25,817  * Debugger PIN: 140-686-435
+2025-08-26 01:38:27,133 127.0.0.1 - - [26/Aug/2025 01:38:27] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 01:38:27,164 127.0.0.1 - - [26/Aug/2025 01:38:27] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 01:38:31,815 127.0.0.1 - - [26/Aug/2025 01:38:31] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 01:38:31,852 127.0.0.1 - - [26/Aug/2025 01:38:31] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 01:38:31,915 127.0.0.1 - - [26/Aug/2025 01:38:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:38:32,082 127.0.0.1 - - [26/Aug/2025 01:38:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:38:32,092 127.0.0.1 - - [26/Aug/2025 01:38:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:38:32,140 127.0.0.1 - - [26/Aug/2025 01:38:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:38:32,165 127.0.0.1 - - [26/Aug/2025 01:38:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 01:38:34,185 127.0.0.1 - - [26/Aug/2025 01:38:34] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 01:38:40,168 127.0.0.1 - - [26/Aug/2025 01:38:40] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-26 01:38:44,329 127.0.0.1 - - [26/Aug/2025 01:38:44] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 01:38:44,384 127.0.0.1 - - [26/Aug/2025 01:38:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 01:38:44,389 127.0.0.1 - - [26/Aug/2025 01:38:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 01:38:44,392 127.0.0.1 - - [26/Aug/2025 01:38:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 01:38:44,435 127.0.0.1 - - [26/Aug/2025 01:38:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 01:38:44,465 127.0.0.1 - - [26/Aug/2025 01:38:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 10:00:05,538 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.155:5000
+2025-08-26 10:00:05,539 [33mPress CTRL+C to quit[0m
+2025-08-26 10:00:05,540  * Restarting with stat
+2025-08-26 10:00:05,814  * Debugger is active!
+2025-08-26 10:00:05,835  * Debugger PIN: 101-052-895
+2025-08-26 10:00:09,041 127.0.0.1 - - [26/Aug/2025 10:00:09] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 10:00:09,257 127.0.0.1 - - [26/Aug/2025 10:00:09] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 10:00:22,909 127.0.0.1 - - [26/Aug/2025 10:00:22] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 10:00:23,016 127.0.0.1 - - [26/Aug/2025 10:00:23] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 10:00:23,157 127.0.0.1 - - [26/Aug/2025 10:00:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 10:00:23,347 127.0.0.1 - - [26/Aug/2025 10:00:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 10:00:23,349 127.0.0.1 - - [26/Aug/2025 10:00:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 10:00:23,583 127.0.0.1 - - [26/Aug/2025 10:00:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 10:00:23,635 127.0.0.1 - - [26/Aug/2025 10:00:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 10:00:29,780 127.0.0.1 - - [26/Aug/2025 10:00:29] "GET /AddUser HTTP/1.1" 200 -
+2025-08-26 10:00:41,376 127.0.0.1 - - [26/Aug/2025 10:00:41] "POST /AddUser HTTP/1.1" 200 -
+2025-08-26 10:00:51,174 127.0.0.1 - - [26/Aug/2025 10:00:51] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 10:01:02,075 127.0.0.1 - - [26/Aug/2025 10:01:02] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-26 10:01:05,818 127.0.0.1 - - [26/Aug/2025 10:01:05] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 10:01:05,904 127.0.0.1 - - [26/Aug/2025 10:01:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:05,908 127.0.0.1 - - [26/Aug/2025 10:01:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 10:01:05,910 127.0.0.1 - - [26/Aug/2025 10:01:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 10:01:05,963 127.0.0.1 - - [26/Aug/2025 10:01:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:06,006 127.0.0.1 - - [26/Aug/2025 10:01:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:19,448 127.0.0.1 - - [26/Aug/2025 10:01:19] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=Yes HTTP/1.1" 200 -
+2025-08-26 10:01:19,556 127.0.0.1 - - [26/Aug/2025 10:01:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:19,561 127.0.0.1 - - [26/Aug/2025 10:01:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:19,563 127.0.0.1 - - [26/Aug/2025 10:01:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:19,565 127.0.0.1 - - [26/Aug/2025 10:01:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 10:01:19,568 127.0.0.1 - - [26/Aug/2025 10:01:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 10:01:25,622 127.0.0.1 - - [26/Aug/2025 10:01:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-26 10:01:25,843 127.0.0.1 - - [26/Aug/2025 10:01:25] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 10:01:32,633 127.0.0.1 - - [26/Aug/2025 10:01:32] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 10:01:32,684 127.0.0.1 - - [26/Aug/2025 10:01:32] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 10:01:32,777 127.0.0.1 - - [26/Aug/2025 10:01:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:32,780 127.0.0.1 - - [26/Aug/2025 10:01:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 10:01:32,782 127.0.0.1 - - [26/Aug/2025 10:01:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 10:01:32,833 127.0.0.1 - - [26/Aug/2025 10:01:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:32,888 127.0.0.1 - - [26/Aug/2025 10:01:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:35,336 127.0.0.1 - - [26/Aug/2025 10:01:35] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 10:01:37,481 127.0.0.1 - - [26/Aug/2025 10:01:37] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 10:01:37,559 127.0.0.1 - - [26/Aug/2025 10:01:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 10:01:37,570 127.0.0.1 - - [26/Aug/2025 10:01:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:37,580 127.0.0.1 - - [26/Aug/2025 10:01:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 10:01:37,651 127.0.0.1 - - [26/Aug/2025 10:01:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 10:01:37,707 127.0.0.1 - - [26/Aug/2025 10:01:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 11:09:16,017 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.21:5000
+2025-08-26 11:09:16,018 [33mPress CTRL+C to quit[0m
+2025-08-26 11:09:16,018  * Restarting with stat
+2025-08-26 11:09:16,259  * Debugger is active!
+2025-08-26 11:09:16,259  * Debugger PIN: 119-881-825
+2025-08-26 11:09:19,815 127.0.0.1 - - [26/Aug/2025 11:09:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 11:09:20,024 127.0.0.1 - - [26/Aug/2025 11:09:20] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 11:09:28,220 127.0.0.1 - - [26/Aug/2025 11:09:28] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 11:09:28,436 127.0.0.1 - - [26/Aug/2025 11:09:28] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 11:09:28,812 127.0.0.1 - - [26/Aug/2025 11:09:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 11:09:28,815 127.0.0.1 - - [26/Aug/2025 11:09:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 11:09:28,819 127.0.0.1 - - [26/Aug/2025 11:09:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 11:09:28,916 127.0.0.1 - - [26/Aug/2025 11:09:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 11:09:28,966 127.0.0.1 - - [26/Aug/2025 11:09:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 11:09:31,043 127.0.0.1 - - [26/Aug/2025 11:09:31] "[35m[1mGET /screenform.html HTTP/1.1[0m" 500 -
+2025-08-26 11:09:31,186 127.0.0.1 - - [26/Aug/2025 11:09:31] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-26 11:09:31,190 127.0.0.1 - - [26/Aug/2025 11:09:31] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-26 11:09:31,249 127.0.0.1 - - [26/Aug/2025 11:09:31] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=ZPBF78RhgO2LgpyzCpwN HTTP/1.1" 200 -
+2025-08-26 11:09:31,311 127.0.0.1 - - [26/Aug/2025 11:09:31] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-26 11:11:13,475  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 11:11:13,512  * Restarting with stat
+2025-08-26 11:11:13,750  * Debugger is active!
+2025-08-26 11:11:13,751  * Debugger PIN: 119-881-825
+2025-08-26 11:11:50,464  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 11:11:50,498  * Restarting with stat
+2025-08-26 11:11:50,762  * Debugger is active!
+2025-08-26 11:11:50,763  * Debugger PIN: 119-881-825
+2025-08-26 11:11:51,428 127.0.0.1 - - [26/Aug/2025 11:11:51] "[35m[1mGET /screenform.html HTTP/1.1[0m" 500 -
+2025-08-26 11:11:51,790 127.0.0.1 - - [26/Aug/2025 11:11:51] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-26 11:11:51,790 127.0.0.1 - - [26/Aug/2025 11:11:51] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-26 11:11:51,953 127.0.0.1 - - [26/Aug/2025 11:11:51] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=PuuRuG7mYwoWnWtXUUnk HTTP/1.1" 200 -
+2025-08-26 11:16:05,158  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 11:16:05,194  * Restarting with stat
+2025-08-26 11:16:05,445  * Debugger is active!
+2025-08-26 11:16:05,445  * Debugger PIN: 119-881-825
+2025-08-26 11:16:08,815 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.21:5000
+2025-08-26 11:16:08,815 [33mPress CTRL+C to quit[0m
+2025-08-26 11:16:08,816  * Restarting with stat
+2025-08-26 11:16:09,059  * Debugger is active!
+2025-08-26 11:16:09,059  * Debugger PIN: 119-881-825
+2025-08-26 11:16:12,815 127.0.0.1 - - [26/Aug/2025 11:16:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 11:16:13,673 127.0.0.1 - - [26/Aug/2025 11:16:13] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 11:16:21,219 127.0.0.1 - - [26/Aug/2025 11:16:21] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 11:16:23,017 127.0.0.1 - - [26/Aug/2025 11:16:23] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 11:16:23,788 127.0.0.1 - - [26/Aug/2025 11:16:23] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 11:16:23,955 127.0.0.1 - - [26/Aug/2025 11:16:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 11:16:23,970 127.0.0.1 - - [26/Aug/2025 11:16:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 11:16:24,103 127.0.0.1 - - [26/Aug/2025 11:16:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 11:16:24,313 127.0.0.1 - - [26/Aug/2025 11:16:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 11:16:24,379 127.0.0.1 - - [26/Aug/2025 11:16:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 11:16:27,272 127.0.0.1 - - [26/Aug/2025 11:16:27] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 11:16:37,159 127.0.0.1 - - [26/Aug/2025 11:16:37] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-26 11:16:40,324 127.0.0.1 - - [26/Aug/2025 11:16:40] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 11:16:40,426 127.0.0.1 - - [26/Aug/2025 11:16:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 11:16:40,435 127.0.0.1 - - [26/Aug/2025 11:16:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 11:16:40,439 127.0.0.1 - - [26/Aug/2025 11:16:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 11:16:40,524 127.0.0.1 - - [26/Aug/2025 11:16:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 11:16:40,589 127.0.0.1 - - [26/Aug/2025 11:16:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 11:17:39,068  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 11:17:39,109  * Restarting with stat
+2025-08-26 11:17:39,375  * Debugger is active!
+2025-08-26 11:17:39,375  * Debugger PIN: 119-881-825
+2025-08-26 11:20:00,932  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 11:20:00,968  * Restarting with stat
+2025-08-26 11:34:23,149 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.21:5000
+2025-08-26 11:34:23,149 [33mPress CTRL+C to quit[0m
+2025-08-26 11:34:23,150  * Restarting with stat
+2025-08-26 11:34:23,423  * Debugger is active!
+2025-08-26 11:34:23,424  * Debugger PIN: 119-881-825
+2025-08-26 11:34:24,403 127.0.0.1 - - [26/Aug/2025 11:34:24] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 11:34:24,591 127.0.0.1 - - [26/Aug/2025 11:34:24] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 11:34:29,487 127.0.0.1 - - [26/Aug/2025 11:34:29] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 11:34:29,684 127.0.0.1 - - [26/Aug/2025 11:34:29] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 11:34:29,779 127.0.0.1 - - [26/Aug/2025 11:34:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 11:34:29,969 127.0.0.1 - - [26/Aug/2025 11:34:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 11:34:29,973 127.0.0.1 - - [26/Aug/2025 11:34:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 11:34:30,178 127.0.0.1 - - [26/Aug/2025 11:34:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 11:34:30,263 127.0.0.1 - - [26/Aug/2025 11:34:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 11:34:32,745 127.0.0.1 - - [26/Aug/2025 11:34:32] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 11:34:39,890 127.0.0.1 - - [26/Aug/2025 11:34:39] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-08-26 11:34:39,977 127.0.0.1 - - [26/Aug/2025 11:34:39] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-26 11:34:39,981 127.0.0.1 - - [26/Aug/2025 11:34:39] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-26 11:34:40,057 127.0.0.1 - - [26/Aug/2025 11:34:40] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=1cAKkyv2PthbuJGe4n0F HTTP/1.1" 200 -
+2025-08-26 11:34:40,109 127.0.0.1 - - [26/Aug/2025 11:34:40] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-26 11:35:11,528  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 11:35:11,567  * Restarting with stat
+2025-08-26 11:35:11,802  * Debugger is active!
+2025-08-26 11:35:11,802  * Debugger PIN: 119-881-825
+2025-08-26 11:35:38,392  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 11:35:38,428  * Restarting with stat
+2025-08-26 11:35:38,672  * Debugger is active!
+2025-08-26 11:35:38,673  * Debugger PIN: 119-881-825
+2025-08-26 22:33:29,780 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.120:5000
+2025-08-26 22:33:29,781 [33mPress CTRL+C to quit[0m
+2025-08-26 22:33:29,782  * Restarting with stat
+2025-08-26 22:33:30,087  * Debugger is active!
+2025-08-26 22:33:30,088  * Debugger PIN: 724-477-747
+2025-08-26 22:33:31,328 127.0.0.1 - - [26/Aug/2025 22:33:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:33:31,607 127.0.0.1 - - [26/Aug/2025 22:33:31] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 22:33:31,952 127.0.0.1 - - [26/Aug/2025 22:33:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-26 22:33:36,726 127.0.0.1 - - [26/Aug/2025 22:33:36] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 22:33:36,824 127.0.0.1 - - [26/Aug/2025 22:33:36] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 22:33:36,890 127.0.0.1 - - [26/Aug/2025 22:33:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:33:37,069 127.0.0.1 - - [26/Aug/2025 22:33:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:33:37,073 127.0.0.1 - - [26/Aug/2025 22:33:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:33:37,242 127.0.0.1 - - [26/Aug/2025 22:33:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:33:37,271 127.0.0.1 - - [26/Aug/2025 22:33:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:33:38,689 127.0.0.1 - - [26/Aug/2025 22:33:38] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 22:33:44,541 127.0.0.1 - - [26/Aug/2025 22:33:44] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-26 22:33:48,663 127.0.0.1 - - [26/Aug/2025 22:33:48] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 22:33:48,721 127.0.0.1 - - [26/Aug/2025 22:33:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:33:48,723 127.0.0.1 - - [26/Aug/2025 22:33:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:33:48,726 127.0.0.1 - - [26/Aug/2025 22:33:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:33:48,773 127.0.0.1 - - [26/Aug/2025 22:33:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:33:48,799 127.0.0.1 - - [26/Aug/2025 22:33:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:34:47,448  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 22:34:47,492  * Restarting with stat
+2025-08-26 22:34:47,752  * Debugger is active!
+2025-08-26 22:34:47,752  * Debugger PIN: 724-477-747
+2025-08-26 22:36:45,461  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 22:36:45,508  * Restarting with stat
+2025-08-26 22:36:45,798  * Debugger is active!
+2025-08-26 22:36:45,798  * Debugger PIN: 724-477-747
+2025-08-26 22:36:53,007 127.0.0.1 - - [26/Aug/2025 22:36:53] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 22:36:59,881 127.0.0.1 - - [26/Aug/2025 22:36:59] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-08-26 22:37:00,145 127.0.0.1 - - [26/Aug/2025 22:37:00] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:37:00,146 127.0.0.1 - - [26/Aug/2025 22:37:00] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-26 22:37:00,305 127.0.0.1 - - [26/Aug/2025 22:37:00] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=F4X9oJxuCH5EGRCXOLQq HTTP/1.1" 200 -
+2025-08-26 22:37:00,459 127.0.0.1 - - [26/Aug/2025 22:37:00] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-26 22:37:44,594  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 22:37:44,639  * Restarting with stat
+2025-08-26 22:37:44,894  * Debugger is active!
+2025-08-26 22:37:44,895  * Debugger PIN: 724-477-747
+2025-08-26 22:37:45,393 127.0.0.1 - - [26/Aug/2025 22:37:45] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 22:37:48,929 127.0.0.1 - - [26/Aug/2025 22:37:48] "[35m[1mPOST /screenform.html HTTP/1.1[0m" 500 -
+2025-08-26 22:37:48,990 127.0.0.1 - - [26/Aug/2025 22:37:48] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:37:48,992 127.0.0.1 - - [26/Aug/2025 22:37:48] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-26 22:37:49,033 127.0.0.1 - - [26/Aug/2025 22:37:49] "GET /screenform.html?__debugger__=yes&cmd=resource&f=console.png&s=oox7XgdXUgialzZCrf1O HTTP/1.1" 200 -
+2025-08-26 22:37:49,070 127.0.0.1 - - [26/Aug/2025 22:37:49] "[36mGET /screenform.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-26 22:38:30,588  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 22:38:30,634  * Restarting with stat
+2025-08-26 22:38:30,881  * Debugger is active!
+2025-08-26 22:38:30,882  * Debugger PIN: 724-477-747
+2025-08-26 22:38:31,333 127.0.0.1 - - [26/Aug/2025 22:38:31] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 22:38:35,528 127.0.0.1 - - [26/Aug/2025 22:38:35] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-26 22:39:25,235 127.0.0.1 - - [26/Aug/2025 22:39:25] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 22:39:25,313 127.0.0.1 - - [26/Aug/2025 22:39:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:25,318 127.0.0.1 - - [26/Aug/2025 22:39:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:39:25,440 127.0.0.1 - - [26/Aug/2025 22:39:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:39:25,481 127.0.0.1 - - [26/Aug/2025 22:39:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:25,636 127.0.0.1 - - [26/Aug/2025 22:39:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:30,650 127.0.0.1 - - [26/Aug/2025 22:39:30] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=Yes&pls_call=All HTTP/1.1" 200 -
+2025-08-26 22:39:30,701 127.0.0.1 - - [26/Aug/2025 22:39:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:39:30,706 127.0.0.1 - - [26/Aug/2025 22:39:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:39:30,718 127.0.0.1 - - [26/Aug/2025 22:39:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:30,762 127.0.0.1 - - [26/Aug/2025 22:39:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:30,793 127.0.0.1 - - [26/Aug/2025 22:39:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:39,201 127.0.0.1 - - [26/Aug/2025 22:39:39] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=Yes HTTP/1.1" 200 -
+2025-08-26 22:39:39,260 127.0.0.1 - - [26/Aug/2025 22:39:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:39,262 127.0.0.1 - - [26/Aug/2025 22:39:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:39:39,265 127.0.0.1 - - [26/Aug/2025 22:39:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:39:39,308 127.0.0.1 - - [26/Aug/2025 22:39:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:39,337 127.0.0.1 - - [26/Aug/2025 22:39:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:42,712 127.0.0.1 - - [26/Aug/2025 22:39:42] "GET /index.html?pretester=jake&screen_completion=All&hearing_loss=All&pls_call=Yes HTTP/1.1" 200 -
+2025-08-26 22:39:42,773 127.0.0.1 - - [26/Aug/2025 22:39:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:39:42,775 127.0.0.1 - - [26/Aug/2025 22:39:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:42,778 127.0.0.1 - - [26/Aug/2025 22:39:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:39:42,816 127.0.0.1 - - [26/Aug/2025 22:39:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:39:42,852 127.0.0.1 - - [26/Aug/2025 22:39:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:46:42,339  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 22:46:42,383  * Restarting with stat
+2025-08-26 22:46:42,635  * Debugger is active!
+2025-08-26 22:46:42,635  * Debugger PIN: 724-477-747
+2025-08-26 22:46:55,593 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.120:5000
+2025-08-26 22:46:55,593 [33mPress CTRL+C to quit[0m
+2025-08-26 22:46:55,594  * Restarting with stat
+2025-08-26 22:46:55,846  * Debugger is active!
+2025-08-26 22:46:55,846  * Debugger PIN: 724-477-747
+2025-08-26 22:46:57,071 127.0.0.1 - - [26/Aug/2025 22:46:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:46:57,226 127.0.0.1 - - [26/Aug/2025 22:46:57] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 22:47:01,593 127.0.0.1 - - [26/Aug/2025 22:47:01] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 22:47:01,755 127.0.0.1 - - [26/Aug/2025 22:47:01] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 22:47:01,847 127.0.0.1 - - [26/Aug/2025 22:47:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:47:01,996 127.0.0.1 - - [26/Aug/2025 22:47:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:47:01,999 127.0.0.1 - - [26/Aug/2025 22:47:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:47:02,185 127.0.0.1 - - [26/Aug/2025 22:47:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:47:02,215 127.0.0.1 - - [26/Aug/2025 22:47:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:47:05,250 127.0.0.1 - - [26/Aug/2025 22:47:05] "GET /index.html?pretester=All&screen_completion=Yes&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-26 22:47:05,316 127.0.0.1 - - [26/Aug/2025 22:47:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:47:05,319 127.0.0.1 - - [26/Aug/2025 22:47:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:47:05,322 127.0.0.1 - - [26/Aug/2025 22:47:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:47:05,361 127.0.0.1 - - [26/Aug/2025 22:47:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:47:05,391 127.0.0.1 - - [26/Aug/2025 22:47:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:47:18,331 127.0.0.1 - - [26/Aug/2025 22:47:18] "GET /index.html?pretester=pass&screen_completion=Yes&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-26 22:47:18,390 127.0.0.1 - - [26/Aug/2025 22:47:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:47:18,394 127.0.0.1 - - [26/Aug/2025 22:47:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:47:18,397 127.0.0.1 - - [26/Aug/2025 22:47:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:47:18,446 127.0.0.1 - - [26/Aug/2025 22:47:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:47:18,480 127.0.0.1 - - [26/Aug/2025 22:47:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:48:04,797  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 22:48:04,840  * Restarting with stat
+2025-08-26 22:48:05,090  * Debugger is active!
+2025-08-26 22:48:05,091  * Debugger PIN: 724-477-747
+2025-08-26 22:55:52,370  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-26 22:55:52,407  * Restarting with stat
+2025-08-26 22:55:52,665  * Debugger is active!
+2025-08-26 22:55:52,666  * Debugger PIN: 724-477-747
+2025-08-26 22:56:10,937 127.0.0.1 - - [26/Aug/2025 22:56:10] "GET /index.html?pretester=pass&screen_completion=Yes&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-26 22:56:11,725 127.0.0.1 - - [26/Aug/2025 22:56:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:56:11,928 127.0.0.1 - - [26/Aug/2025 22:56:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:56:11,999 127.0.0.1 - - [26/Aug/2025 22:56:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:56:12,789 127.0.0.1 - - [26/Aug/2025 22:56:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:56:13,760 127.0.0.1 - - [26/Aug/2025 22:56:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:56:16,332 127.0.0.1 - - [26/Aug/2025 22:56:16] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 22:56:21,664 127.0.0.1 - - [26/Aug/2025 22:56:21] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-26 22:57:39,474  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 22:57:39,588  * Restarting with stat
+2025-08-26 22:57:39,888  * Debugger is active!
+2025-08-26 22:57:39,888  * Debugger PIN: 724-477-747
+2025-08-26 22:58:08,663  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 22:58:08,705  * Restarting with stat
+2025-08-26 22:58:08,961  * Debugger is active!
+2025-08-26 22:58:08,962  * Debugger PIN: 724-477-747
+2025-08-26 22:58:15,448 127.0.0.1 - - [26/Aug/2025 22:58:15] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-26 22:58:53,208  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 22:58:53,253  * Restarting with stat
+2025-08-26 22:58:53,516  * Debugger is active!
+2025-08-26 22:58:53,516  * Debugger PIN: 724-477-747
+2025-08-26 22:59:34,819  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 22:59:34,856  * Restarting with stat
+2025-08-26 22:59:35,109  * Debugger is active!
+2025-08-26 22:59:35,110  * Debugger PIN: 724-477-747
+2025-08-26 23:02:09,474  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 23:02:09,540  * Restarting with stat
+2025-08-26 23:02:09,852  * Debugger is active!
+2025-08-26 23:02:09,852  * Debugger PIN: 724-477-747
+2025-08-26 23:02:12,488 127.0.0.1 - - [26/Aug/2025 23:02:12] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 23:02:17,932 127.0.0.1 - - [26/Aug/2025 23:02:17] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-26 23:07:16,202  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/userManagement.py', reloading
+2025-08-26 23:07:16,241  * Restarting with stat
+2025-08-26 23:09:32,981 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.120:5000
+2025-08-26 23:09:32,981 [33mPress CTRL+C to quit[0m
+2025-08-26 23:09:32,981  * Restarting with stat
+2025-08-26 23:09:33,238  * Debugger is active!
+2025-08-26 23:09:33,239  * Debugger PIN: 724-477-747
+2025-08-26 23:09:34,523 127.0.0.1 - - [26/Aug/2025 23:09:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 23:09:34,672 127.0.0.1 - - [26/Aug/2025 23:09:34] "GET /login.html HTTP/1.1" 200 -
+2025-08-26 23:09:39,800 127.0.0.1 - - [26/Aug/2025 23:09:39] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-26 23:09:39,972 127.0.0.1 - - [26/Aug/2025 23:09:39] "GET /index.html HTTP/1.1" 200 -
+2025-08-26 23:09:40,045 127.0.0.1 - - [26/Aug/2025 23:09:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 23:09:40,187 127.0.0.1 - - [26/Aug/2025 23:09:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 23:09:40,211 127.0.0.1 - - [26/Aug/2025 23:09:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 23:09:40,262 127.0.0.1 - - [26/Aug/2025 23:09:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 23:09:40,291 127.0.0.1 - - [26/Aug/2025 23:09:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 23:09:42,290 127.0.0.1 - - [26/Aug/2025 23:09:42] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-26 23:09:48,975 127.0.0.1 - - [26/Aug/2025 23:09:48] "POST /screenform.html HTTP/1.1" 200 -
