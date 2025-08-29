@@ -109,6 +109,10 @@ def addPoints(pretester):
 
         conn.commit()
 
+
+
+
+    
 #def insert_screen_data(pretester, patient_id, screen_complete, reason_declined, hearing_loss, booked, pls_call, recorded_time):
 
    # recorded_time = datetime.datetime.now()#.isoformat(sep=' ', timespec='seconds')

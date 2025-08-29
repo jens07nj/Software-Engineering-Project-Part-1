@@ -79,25 +79,77 @@ def logout():
 def privacy():
     return render_template("/privacy.html")
 
-# Handle the screening form
+
+GOAL = 100  # points needed for a coffee
+DB_PATH = "databaseFiles/database.db"
+
+def get_user_totals(username=None):
+    """Return (points, coffees, total_points) using a JOIN. No pre-insert needed."""
+    if username is None:
+        username = session.get("username")
+    if not username:
+        return (0, 0, 0)
+
+    con = sql.connect(DB_PATH)
+    try:
+        cur = con.cursor()
+        # No need for PRAGMA here (we're just reading), but harmless if you keep it.
+        cur.execute("""
+            SELECT
+              COALESCE(sp.points, 0),
+              COALESCE(sp.coffees, 0),
+              COALESCE(sp.total_points, 0)
+            FROM Staff AS s
+            LEFT JOIN Staff_points AS sp
+              ON sp.Username = s.Username
+            WHERE s.Username = ?;
+        """, (username,))
+        row = cur.fetchone()
+        return row if row else (0, 0, 0)
+    finally:
+        con.close()
+
+
+def calc_progress(points: int, threshold: int = GOAL) -> int:
+    """Return a 0..100 percentage for the progress bar."""
+    try:
+        pct = int(round((points / float(threshold)) * 100))
+        return max(0, min(100, pct))
+    except Exception:
+        return 0
+
+@app.context_processor
+def inject_rewards_progress():
+    """Make points/coffees/total_points/progress_percent/threshold available in ALL templates."""
+    username = session.get("username")
+    if not username:
+        return dict(points=0, coffees=0, total_points=0, progress_percent=0, threshold=GOAL)
+    points, coffees, total_points = get_user_totals(username)
+    return dict(
+        points=points,
+        coffees=coffees,
+        total_points=total_points,
+        progress_percent=calc_progress(points, GOAL),
+        threshold=GOAL,
+    )
+
+# ✅ Route belongs on the view function, not on get_user_totals
 @app.route("/screenform.html", methods=["GET", "POST"])
 def screenform():
     if request.method == 'POST':
-        print('post')  # Debug log
-
         # Get logged-in user's username
         pretester = session.get("username")
 
         # Get all form data submitted
         patient_id = request.form.get("patient_id")
-        recorded_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Current timestamp
+        recorded_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         screen_complete = request.form.get("screen_complete") == "yes"
         reason_declined = request.form.get("reason_declined")
         hearing_loss = request.form.get("hearing_loss") == "yes"
         booked = request.form.get("booked") == "yes"
         pls_call = request.form.get("pls_call") == "yes"
 
-        # Save the form data using dbHandler function
+        # Save the form data
         dbHandler.insert_screen_data(
             pretester,
             patient_id,
@@ -108,13 +160,42 @@ def screenform():
             pls_call,
             recorded_time
         )
-        dbHandler.addPoints(pretester)
-        # Reload page with confirmation message
-        return render_template("/screenform.html", username=session.get("username"), submitted=True)
 
-    # GET request — just show the form
-    return render_template("/screenform.html")
+        # Award a point only if the screen was actually completed
+        if screen_complete and pretester:
+            dbHandler.addPoints(pretester)
 
+        # Fetch latest totals for progress bar
+        points, coffees, total_points = get_user_totals(pretester)
+        progress_percent = calc_progress(points)
+        
+
+        return render_template(
+            "/screenform.html",
+            username=pretester,
+            submitted="True",
+            points=points,
+            coffees=coffees,
+            total_points=total_points,
+            progress_percent=progress_percent,
+            threshold=GOAL
+        )
+
+    # GET request — show form + current progress (if logged in)
+    pretester = session.get("username")
+    points, coffees, total_points = get_user_totals(pretester) if pretester else (0, 0, 0)
+    progress_percent = calc_progress(points)
+
+    return render_template(
+        "/screenform.html",
+        username=pretester,
+        submitted=False,
+        points=points,
+        coffees=coffees,
+        total_points=total_points,
+        progress_percent=progress_percent,
+        threshold=GOAL
+    )
 # CSP violation report endpoint
 @app.route("/csp_report", methods=["POST"])
 @csrf.exempt  # Disable CSRF for this route (it's used by browsers, not forms)

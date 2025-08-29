@@ -5,7 +5,29 @@
   <div class="row">
     <a href="screenform.html">Enter screen</a>
   </div>
-   {% if staff_role and staff_role|lower == "admin" %}
+  <div class="mb-3">
+  <div class="d-flex justify-content-between align-items-center mb-1">
+    <strong>Reward progress</strong>
+    <small>{{ points }}/{{ threshold }} points</small>
+  </div>
+
+  <div class="progress" style="height: 22px;">
+    <div
+      class="progress-bar"
+      role="progressbar"
+      style="width: {{ progress_percent }}%;"
+      aria-valuenow="{{ progress_percent }}"
+      aria-valuemin="0"
+      aria-valuemax="100">
+      {{ progress_percent }}%
+    </div>
+  </div>
+
+  <div class="mt-2 text-muted">
+    Coffees earned: <strong>{{ coffees }}</strong> · Total points: <strong>{{ total_points }}</strong>
+  </div>
+</div>
+  {% if staff_role and staff_role|lower == "admin" %}
   <form method="get" class="mb-3 d-flex flex-wrap gap-3 align-items-center" action="">
   <!-- Pretester -->
   <label class="mb-0" for="pretester">Pretester:</label>
