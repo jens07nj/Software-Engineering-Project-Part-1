@@ -49,6 +49,12 @@
           Add User
         </button>
       </form>
+      {% endif %} {% if staff_role and staff_role|lower == "admin" %}
+      <form action="/coffees" method="get" style="display: inline">
+        <button type="submit" class="btn btn-outline-danger me-2">
+          Coffees
+        </button>
+      </form>
       {% endif %}
       <!-- Logout Button -->
       <form action="/logout" method="get" style="display: inline">

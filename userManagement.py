@@ -106,6 +106,7 @@ def addPoints(pretester):
                     points = 0
                 WHERE Username = ?;
             """, (pretester,))
+            
 
         conn.commit()
 

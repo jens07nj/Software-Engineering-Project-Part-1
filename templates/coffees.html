@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coffees</title>
+  </head>
+  <body>
+    <h1>Staff Coffees</h1>
+    <table border="1" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Coffees</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in coffees %}
+        <tr>
+          <td>{{ row[0] }}</td>
+          <td>{{ row[1] }}</td>
+          <td>
+            <form
+              action="{{ url_for('claimCoffee', username=row[0]) }}"
+              method="post"
+            >
+              <button type="submit">Claim</button>
+              <input
+                type="hidden"
+                name="csrf_token"
+                value="{{ csrf_token() }}"
+              />
+            </form>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <button type="button" onclick="window.location.href='/index.html';">
+      Cancel
+    </button>
+  </body>
+</html>

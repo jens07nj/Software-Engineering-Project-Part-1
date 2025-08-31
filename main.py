@@ -1,5 +1,5 @@
 
-from flask import Flask, redirect, render_template, request, jsonify, session
+from flask import Flask, redirect, render_template, request, jsonify, session, url_for
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import requests
@@ -84,7 +84,7 @@ GOAL = 100  # points needed for a coffee
 DB_PATH = "databaseFiles/database.db"
 
 def get_user_totals(username=None):
-    """Return (points, coffees, total_points) using a JOIN. No pre-insert needed."""
+    """Return (points, coffees, total_points) using a JOIN."""
     if username is None:
         username = session.get("username")
     if not username:
@@ -133,7 +133,6 @@ def inject_rewards_progress():
         threshold=GOAL,
     )
 
-# ✅ Route belongs on the view function, not on get_user_totals
 @app.route("/screenform.html", methods=["GET", "POST"])
 def screenform():
     if request.method == 'POST':
@@ -292,6 +291,35 @@ def index():
         selected_pls_call=pc,
         staff_role=session.get("role"),  # keep if your templates check 'staff_role'
     )
+
+
+def getCoffees():
+    con = sql.connect(DB_PATH)
+    cur = con.cursor()
+    cur.execute("SELECT Username, coffees FROM Staff_points;")
+    coffees = cur.fetchall()   # get the rows
+    con.close()
+    print(coffees)
+    return coffees
+
+@app.route("/claimCoffee/<username>", methods=["POST"])
+def claimCoffee(username):
+    con = sql.connect(DB_PATH)
+    cur = con.cursor()
+    cur.execute("""
+        UPDATE Staff_points
+        SET coffees = coffees - 1
+        WHERE Username = ? AND coffees > 0;
+    """, (username,))
+    con.commit()
+    con.close()
+    return redirect(url_for('coffees'))  # redirect to the /coffees route
+
+@app.route("/coffees", methods=["GET"])
+def coffees():
+    coffees_list = getCoffees()
+    return render_template("coffees.html", coffees=coffees_list)
+
 
 @app.route("/AddUser", methods=["GET", "POST"])
 def AddUser():

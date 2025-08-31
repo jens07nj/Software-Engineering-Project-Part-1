@@ -4309,3 +4309,380 @@
 2025-08-29 08:37:59,909  * Restarting with stat
 2025-08-29 08:38:00,150  * Debugger is active!
 2025-08-29 08:38:00,150  * Debugger PIN: 929-482-095
+2025-08-29 08:42:19,533 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.162:5000
+2025-08-29 08:42:19,533 [33mPress CTRL+C to quit[0m
+2025-08-29 08:42:19,534  * Restarting with stat
+2025-08-29 08:42:19,790  * Debugger is active!
+2025-08-29 08:42:19,791  * Debugger PIN: 929-482-095
+2025-08-29 08:42:20,491 127.0.0.1 - - [29/Aug/2025 08:42:20] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-29 08:42:20,690 127.0.0.1 - - [29/Aug/2025 08:42:20] "GET /login.html HTTP/1.1" 200 -
+2025-08-29 08:42:26,364 127.0.0.1 - - [29/Aug/2025 08:42:26] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-29 08:42:26,438 127.0.0.1 - - [29/Aug/2025 08:42:26] "GET /index.html HTTP/1.1" 200 -
+2025-08-29 08:42:26,569 127.0.0.1 - - [29/Aug/2025 08:42:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 08:42:26,578 127.0.0.1 - - [29/Aug/2025 08:42:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 08:42:26,808 127.0.0.1 - - [29/Aug/2025 08:42:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 08:42:26,812 127.0.0.1 - - [29/Aug/2025 08:42:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 08:42:26,814 127.0.0.1 - - [29/Aug/2025 08:42:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 08:42:29,294 127.0.0.1 - - [29/Aug/2025 08:42:29] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-29 08:42:35,135 127.0.0.1 - - [29/Aug/2025 08:42:35] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-29 08:42:37,417 127.0.0.1 - - [29/Aug/2025 08:42:37] "GET /index.html HTTP/1.1" 200 -
+2025-08-29 08:42:37,480 127.0.0.1 - - [29/Aug/2025 08:42:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 08:42:37,504 127.0.0.1 - - [29/Aug/2025 08:42:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 08:42:37,507 127.0.0.1 - - [29/Aug/2025 08:42:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 08:42:37,509 127.0.0.1 - - [29/Aug/2025 08:42:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 08:42:37,512 127.0.0.1 - - [29/Aug/2025 08:42:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:16:33,924 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.130:5000
+2025-08-31 06:16:33,925 [33mPress CTRL+C to quit[0m
+2025-08-31 06:16:33,925  * Restarting with stat
+2025-08-31 06:16:34,165  * Debugger is active!
+2025-08-31 06:16:34,166  * Debugger PIN: 283-526-343
+2025-08-31 06:16:37,394 127.0.0.1 - - [31/Aug/2025 06:16:37] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-31 06:16:37,595 127.0.0.1 - - [31/Aug/2025 06:16:37] "GET /login.html HTTP/1.1" 200 -
+2025-08-31 06:16:46,574 127.0.0.1 - - [31/Aug/2025 06:16:46] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-31 06:16:46,669 127.0.0.1 - - [31/Aug/2025 06:16:46] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:16:47,066 127.0.0.1 - - [31/Aug/2025 06:16:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:16:47,066 127.0.0.1 - - [31/Aug/2025 06:16:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:16:47,067 127.0.0.1 - - [31/Aug/2025 06:16:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:16:47,158 127.0.0.1 - - [31/Aug/2025 06:16:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:16:47,213 127.0.0.1 - - [31/Aug/2025 06:16:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:16:49,570 127.0.0.1 - - [31/Aug/2025 06:16:49] "[35m[1mGET /coffees HTTP/1.1[0m" 500 -
+2025-08-31 06:16:49,721 127.0.0.1 - - [31/Aug/2025 06:16:49] "GET /coffees?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-31 06:16:49,723 127.0.0.1 - - [31/Aug/2025 06:16:49] "GET /coffees?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-31 06:16:49,783 127.0.0.1 - - [31/Aug/2025 06:16:49] "GET /coffees?__debugger__=yes&cmd=resource&f=console.png&s=Nvu8k8NyWG4HshSqqGXa HTTP/1.1" 200 -
+2025-08-31 06:16:49,829 127.0.0.1 - - [31/Aug/2025 06:16:49] "GET /coffees?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-31 06:18:37,746  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:18:37,791  * Restarting with stat
+2025-08-31 06:18:38,042  * Debugger is active!
+2025-08-31 06:18:38,043  * Debugger PIN: 283-526-343
+2025-08-31 06:18:40,393 127.0.0.1 - - [31/Aug/2025 06:18:40] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:20:05,076  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:20:05,112  * Restarting with stat
+2025-08-31 06:20:05,365  * Debugger is active!
+2025-08-31 06:20:05,366  * Debugger PIN: 283-526-343
+2025-08-31 06:20:06,464 127.0.0.1 - - [31/Aug/2025 06:20:06] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:20:24,889  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:20:24,924  * Restarting with stat
+2025-08-31 06:20:25,177  * Debugger is active!
+2025-08-31 06:20:25,178  * Debugger PIN: 283-526-343
+2025-08-31 06:20:26,942 127.0.0.1 - - [31/Aug/2025 06:20:26] "[35m[1mGET /coffees HTTP/1.1[0m" 500 -
+2025-08-31 06:20:27,304 127.0.0.1 - - [31/Aug/2025 06:20:27] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-31 06:20:27,332 127.0.0.1 - - [31/Aug/2025 06:20:27] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:20:27,540 127.0.0.1 - - [31/Aug/2025 06:20:27] "GET /coffees?__debugger__=yes&cmd=resource&f=console.png&s=KDMyGrwJjhoV2fQCwSfZ HTTP/1.1" 200 -
+2025-08-31 06:20:27,716 127.0.0.1 - - [31/Aug/2025 06:20:27] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-31 06:20:46,290  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:20:46,330  * Restarting with stat
+2025-08-31 06:20:46,601  * Debugger is active!
+2025-08-31 06:20:46,602  * Debugger PIN: 283-526-343
+2025-08-31 06:21:37,544  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:21:37,579  * Restarting with stat
+2025-08-31 06:21:37,816  * Debugger is active!
+2025-08-31 06:21:37,817  * Debugger PIN: 283-526-343
+2025-08-31 06:21:39,519 127.0.0.1 - - [31/Aug/2025 06:21:39] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:23:06,935 127.0.0.1 - - [31/Aug/2025 06:23:06] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:25:32,100 127.0.0.1 - - [31/Aug/2025 06:25:32] "[35m[1mGET /coffees HTTP/1.1[0m" 500 -
+2025-08-31 06:25:32,365 127.0.0.1 - - [31/Aug/2025 06:25:32] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:25:32,369 127.0.0.1 - - [31/Aug/2025 06:25:32] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-31 06:25:32,569 127.0.0.1 - - [31/Aug/2025 06:25:32] "GET /coffees?__debugger__=yes&cmd=resource&f=console.png&s=r3bn7JIciRS8zKURnHav HTTP/1.1" 200 -
+2025-08-31 06:25:32,758 127.0.0.1 - - [31/Aug/2025 06:25:32] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-31 06:25:35,760 127.0.0.1 - - [31/Aug/2025 06:25:35] "[35m[1mGET /coffees HTTP/1.1[0m" 500 -
+2025-08-31 06:25:35,849 127.0.0.1 - - [31/Aug/2025 06:25:35] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:25:35,852 127.0.0.1 - - [31/Aug/2025 06:25:35] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-31 06:25:35,896 127.0.0.1 - - [31/Aug/2025 06:25:35] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=console.png&s=r3bn7JIciRS8zKURnHav HTTP/1.1[0m" 304 -
+2025-08-31 06:26:16,266  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:26:16,305  * Restarting with stat
+2025-08-31 06:26:16,541  * Debugger is active!
+2025-08-31 06:26:16,541  * Debugger PIN: 283-526-343
+2025-08-31 06:26:56,233 127.0.0.1 - - [31/Aug/2025 06:26:56] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:26:58,375 127.0.0.1 - - [31/Aug/2025 06:26:58] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:26:59,236 127.0.0.1 - - [31/Aug/2025 06:26:59] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:26:59,811 127.0.0.1 - - [31/Aug/2025 06:26:59] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:27:00,171 127.0.0.1 - - [31/Aug/2025 06:27:00] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:27:00,356 127.0.0.1 - - [31/Aug/2025 06:27:00] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:27:00,533 127.0.0.1 - - [31/Aug/2025 06:27:00] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:27:00,689 127.0.0.1 - - [31/Aug/2025 06:27:00] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:27:00,858 127.0.0.1 - - [31/Aug/2025 06:27:00] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:27:13,385 127.0.0.1 - - [31/Aug/2025 06:27:13] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:33:07,251  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:33:07,286  * Restarting with stat
+2025-08-31 06:33:07,538  * Debugger is active!
+2025-08-31 06:33:07,538  * Debugger PIN: 283-526-343
+2025-08-31 06:34:04,404 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.130:5000
+2025-08-31 06:34:04,404 [33mPress CTRL+C to quit[0m
+2025-08-31 06:34:04,405  * Restarting with stat
+2025-08-31 06:34:04,645  * Debugger is active!
+2025-08-31 06:34:04,646  * Debugger PIN: 283-526-343
+2025-08-31 06:34:05,152 127.0.0.1 - - [31/Aug/2025 06:34:05] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-31 06:34:05,380 127.0.0.1 - - [31/Aug/2025 06:34:05] "GET /login.html HTTP/1.1" 200 -
+2025-08-31 06:34:10,981 127.0.0.1 - - [31/Aug/2025 06:34:10] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-31 06:34:11,210 127.0.0.1 - - [31/Aug/2025 06:34:11] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:34:11,324 127.0.0.1 - - [31/Aug/2025 06:34:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:34:11,339 127.0.0.1 - - [31/Aug/2025 06:34:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:34:11,352 127.0.0.1 - - [31/Aug/2025 06:34:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:34:11,511 127.0.0.1 - - [31/Aug/2025 06:34:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:34:11,537 127.0.0.1 - - [31/Aug/2025 06:34:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:34:13,490 127.0.0.1 - - [31/Aug/2025 06:34:13] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:34:25,733 127.0.0.1 - - [31/Aug/2025 06:34:25] "[35m[1mGET /coffees HTTP/1.1[0m" 500 -
+2025-08-31 06:34:25,823 127.0.0.1 - - [31/Aug/2025 06:34:25] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:34:25,827 127.0.0.1 - - [31/Aug/2025 06:34:25] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-31 06:34:25,905 127.0.0.1 - - [31/Aug/2025 06:34:25] "GET /coffees?__debugger__=yes&cmd=resource&f=console.png&s=0pQoKPYchYdvEVQqgtxE HTTP/1.1" 200 -
+2025-08-31 06:34:25,954 127.0.0.1 - - [31/Aug/2025 06:34:25] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-31 06:38:13,874 127.0.0.1 - - [31/Aug/2025 06:38:13] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:41:39,289 127.0.0.1 - - [31/Aug/2025 06:41:39] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:41:41,449 The CSRF token is missing.
+2025-08-31 06:41:41,450 127.0.0.1 - - [31/Aug/2025 06:41:41] "[31m[1mPOST /claimCoffee/jake HTTP/1.1[0m" 400 -
+2025-08-31 06:43:28,192 127.0.0.1 - - [31/Aug/2025 06:43:28] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:43:31,482 The CSRF token is missing.
+2025-08-31 06:43:31,482 127.0.0.1 - - [31/Aug/2025 06:43:31] "[31m[1mPOST /claimCoffee/jake HTTP/1.1[0m" 400 -
+2025-08-31 06:43:33,633 127.0.0.1 - - [31/Aug/2025 06:43:33] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:43:43,481 127.0.0.1 - - [31/Aug/2025 06:43:43] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:44:01,019 127.0.0.1 - - [31/Aug/2025 06:44:01] "GET /screenform.html HTTP/1.1" 200 -
+2025-08-31 06:44:07,649 127.0.0.1 - - [31/Aug/2025 06:44:07] "POST /screenform.html HTTP/1.1" 200 -
+2025-08-31 06:44:10,523 127.0.0.1 - - [31/Aug/2025 06:44:10] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:44:10,633 127.0.0.1 - - [31/Aug/2025 06:44:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:44:10,644 127.0.0.1 - - [31/Aug/2025 06:44:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:44:10,652 127.0.0.1 - - [31/Aug/2025 06:44:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:44:10,655 127.0.0.1 - - [31/Aug/2025 06:44:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:44:10,752 127.0.0.1 - - [31/Aug/2025 06:44:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:44:36,948 127.0.0.1 - - [31/Aug/2025 06:44:36] "GET /AddUser HTTP/1.1" 200 -
+2025-08-31 06:44:40,205 127.0.0.1 - - [31/Aug/2025 06:44:40] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:44:40,284 127.0.0.1 - - [31/Aug/2025 06:44:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:44:40,286 127.0.0.1 - - [31/Aug/2025 06:44:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:44:40,305 127.0.0.1 - - [31/Aug/2025 06:44:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:44:40,307 127.0.0.1 - - [31/Aug/2025 06:44:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:44:40,322 127.0.0.1 - - [31/Aug/2025 06:44:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:44:41,319 127.0.0.1 - - [31/Aug/2025 06:44:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-31 06:44:41,369 127.0.0.1 - - [31/Aug/2025 06:44:41] "GET /login.html HTTP/1.1" 200 -
+2025-08-31 06:44:46,781 127.0.0.1 - - [31/Aug/2025 06:44:46] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-31 06:44:46,846 127.0.0.1 - - [31/Aug/2025 06:44:46] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:44:46,926 127.0.0.1 - - [31/Aug/2025 06:44:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:44:46,932 127.0.0.1 - - [31/Aug/2025 06:44:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:44:46,939 127.0.0.1 - - [31/Aug/2025 06:44:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:44:46,992 127.0.0.1 - - [31/Aug/2025 06:44:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:44:47,034 127.0.0.1 - - [31/Aug/2025 06:44:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:44:53,436 127.0.0.1 - - [31/Aug/2025 06:44:53] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-31 06:44:53,488 127.0.0.1 - - [31/Aug/2025 06:44:53] "GET /login.html HTTP/1.1" 200 -
+2025-08-31 06:45:01,897 127.0.0.1 - - [31/Aug/2025 06:45:01] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-31 06:45:01,951 127.0.0.1 - - [31/Aug/2025 06:45:01] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:45:02,040 127.0.0.1 - - [31/Aug/2025 06:45:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:45:02,042 127.0.0.1 - - [31/Aug/2025 06:45:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:45:02,045 127.0.0.1 - - [31/Aug/2025 06:45:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:45:02,047 127.0.0.1 - - [31/Aug/2025 06:45:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:45:02,049 127.0.0.1 - - [31/Aug/2025 06:45:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:45:05,420 127.0.0.1 - - [31/Aug/2025 06:45:05] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:45:21,302 127.0.0.1 - - [31/Aug/2025 06:45:21] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:45:21,403 127.0.0.1 - - [31/Aug/2025 06:45:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:45:21,414 127.0.0.1 - - [31/Aug/2025 06:45:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:45:21,420 127.0.0.1 - - [31/Aug/2025 06:45:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:45:21,423 127.0.0.1 - - [31/Aug/2025 06:45:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:45:21,426 127.0.0.1 - - [31/Aug/2025 06:45:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:46:32,928 127.0.0.1 - - [31/Aug/2025 06:46:32] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:46:34,171 127.0.0.1 - - [31/Aug/2025 06:46:34] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:46:34,240 127.0.0.1 - - [31/Aug/2025 06:46:34] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:48:06,312 127.0.0.1 - - [31/Aug/2025 06:48:06] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:48:08,586 127.0.0.1 - - [31/Aug/2025 06:48:08] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:48:08,763 127.0.0.1 - - [31/Aug/2025 06:48:08] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:48:11,288 127.0.0.1 - - [31/Aug/2025 06:48:11] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:48:27,228 127.0.0.1 - - [31/Aug/2025 06:48:27] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:48:27,397 127.0.0.1 - - [31/Aug/2025 06:48:27] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:49:53,970 127.0.0.1 - - [31/Aug/2025 06:49:53] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:49:54,150 127.0.0.1 - - [31/Aug/2025 06:49:54] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:50:11,902 127.0.0.1 - - [31/Aug/2025 06:50:11] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:50:12,118 127.0.0.1 - - [31/Aug/2025 06:50:12] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:53:08,867  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:53:08,901  * Restarting with stat
+2025-08-31 06:53:09,140  * Debugger is active!
+2025-08-31 06:53:09,140  * Debugger PIN: 283-526-343
+2025-08-31 06:53:14,437 127.0.0.1 - - [31/Aug/2025 06:53:14] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:53:14,908 127.0.0.1 - - [31/Aug/2025 06:53:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:53:14,910 127.0.0.1 - - [31/Aug/2025 06:53:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:53:14,937 127.0.0.1 - - [31/Aug/2025 06:53:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:53:14,959 127.0.0.1 - - [31/Aug/2025 06:53:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:53:14,966 127.0.0.1 - - [31/Aug/2025 06:53:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:53:15,881 127.0.0.1 - - [31/Aug/2025 06:53:15] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:53:33,443 127.0.0.1 - - [31/Aug/2025 06:53:33] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:53:35,318 127.0.0.1 - - [31/Aug/2025 06:53:35] "[35m[1mPOST /claimCoffee/jake HTTP/1.1[0m" 500 -
+2025-08-31 06:53:35,382 127.0.0.1 - - [31/Aug/2025 06:53:35] "GET /claimCoffee/jake?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-31 06:53:35,396 127.0.0.1 - - [31/Aug/2025 06:53:35] "GET /claimCoffee/jake?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-31 06:53:35,447 127.0.0.1 - - [31/Aug/2025 06:53:35] "GET /claimCoffee/jake?__debugger__=yes&cmd=resource&f=console.png&s=MD07uELUknIzbdCP0USQ HTTP/1.1" 200 -
+2025-08-31 06:53:35,500 127.0.0.1 - - [31/Aug/2025 06:53:35] "GET /claimCoffee/jake?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-31 06:53:57,419  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:53:57,458  * Restarting with stat
+2025-08-31 06:53:57,697  * Debugger is active!
+2025-08-31 06:53:57,698  * Debugger PIN: 283-526-343
+2025-08-31 06:54:00,392 127.0.0.1 - - [31/Aug/2025 06:54:00] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:54:00,471 127.0.0.1 - - [31/Aug/2025 06:54:00] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:55:28,764  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 06:55:28,797  * Restarting with stat
+2025-08-31 06:55:29,040  * Debugger is active!
+2025-08-31 06:55:29,041  * Debugger PIN: 283-526-343
+2025-08-31 06:56:07,469 127.0.0.1 - - [31/Aug/2025 06:56:07] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:56:07,665 127.0.0.1 - - [31/Aug/2025 06:56:07] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:56:22,720 127.0.0.1 - - [31/Aug/2025 06:56:22] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:56:22,792 127.0.0.1 - - [31/Aug/2025 06:56:22] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:56:36,659 127.0.0.1 - - [31/Aug/2025 06:56:36] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:56:36,732 127.0.0.1 - - [31/Aug/2025 06:56:36] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:57:03,905 127.0.0.1 - - [31/Aug/2025 06:57:03] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:57:04,086 127.0.0.1 - - [31/Aug/2025 06:57:04] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:57:23,850 127.0.0.1 - - [31/Aug/2025 06:57:23] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:57:23,914 127.0.0.1 - - [31/Aug/2025 06:57:23] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:57:47,935 127.0.0.1 - - [31/Aug/2025 06:57:47] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:57:48,044 127.0.0.1 - - [31/Aug/2025 06:57:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:57:48,047 127.0.0.1 - - [31/Aug/2025 06:57:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:57:48,052 127.0.0.1 - - [31/Aug/2025 06:57:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:57:48,054 127.0.0.1 - - [31/Aug/2025 06:57:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:57:48,192 127.0.0.1 - - [31/Aug/2025 06:57:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:57:48,990 127.0.0.1 - - [31/Aug/2025 06:57:48] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:57:51,142 127.0.0.1 - - [31/Aug/2025 06:57:51] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:57:51,191 127.0.0.1 - - [31/Aug/2025 06:57:51] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:57:54,983 127.0.0.1 - - [31/Aug/2025 06:57:54] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:57:55,055 127.0.0.1 - - [31/Aug/2025 06:57:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:57:55,066 127.0.0.1 - - [31/Aug/2025 06:57:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:57:55,098 127.0.0.1 - - [31/Aug/2025 06:57:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:57:55,113 127.0.0.1 - - [31/Aug/2025 06:57:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:57:55,116 127.0.0.1 - - [31/Aug/2025 06:57:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:57:58,171 127.0.0.1 - - [31/Aug/2025 06:57:58] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 06:58:33,771 127.0.0.1 - - [31/Aug/2025 06:58:33] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 06:58:33,839 127.0.0.1 - - [31/Aug/2025 06:58:33] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 06:59:06,376 127.0.0.1 - - [31/Aug/2025 06:59:06] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:59:06,474 127.0.0.1 - - [31/Aug/2025 06:59:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 06:59:06,517 127.0.0.1 - - [31/Aug/2025 06:59:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 06:59:06,533 127.0.0.1 - - [31/Aug/2025 06:59:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 06:59:06,543 127.0.0.1 - - [31/Aug/2025 06:59:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 06:59:06,615 127.0.0.1 - - [31/Aug/2025 06:59:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:59:07,919 127.0.0.1 - - [31/Aug/2025 06:59:07] "[35m[1mGET /coffees HTTP/1.1[0m" 500 -
+2025-08-31 06:59:07,998 127.0.0.1 - - [31/Aug/2025 06:59:07] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:59:08,001 127.0.0.1 - - [31/Aug/2025 06:59:08] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-31 06:59:08,087 127.0.0.1 - - [31/Aug/2025 06:59:08] "GET /coffees?__debugger__=yes&cmd=resource&f=console.png&s=1WugPhiDbDDkcXjX9nPs HTTP/1.1" 200 -
+2025-08-31 06:59:08,152 127.0.0.1 - - [31/Aug/2025 06:59:08] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-31 06:59:34,489 127.0.0.1 - - [31/Aug/2025 06:59:34] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 06:59:35,865 127.0.0.1 - - [31/Aug/2025 06:59:35] "[35m[1mGET /coffees HTTP/1.1[0m" 500 -
+2025-08-31 06:59:35,947 127.0.0.1 - - [31/Aug/2025 06:59:35] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-31 06:59:35,958 127.0.0.1 - - [31/Aug/2025 06:59:35] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-31 06:59:36,018 127.0.0.1 - - [31/Aug/2025 06:59:36] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=console.png&s=1WugPhiDbDDkcXjX9nPs HTTP/1.1[0m" 304 -
+2025-08-31 06:59:48,568 127.0.0.1 - - [31/Aug/2025 06:59:48] "[35m[1mGET /coffees HTTP/1.1[0m" 500 -
+2025-08-31 06:59:48,672 127.0.0.1 - - [31/Aug/2025 06:59:48] "GET /coffees?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-31 06:59:48,675 127.0.0.1 - - [31/Aug/2025 06:59:48] "GET /coffees?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-31 06:59:48,736 127.0.0.1 - - [31/Aug/2025 06:59:48] "[36mGET /coffees?__debugger__=yes&cmd=resource&f=console.png&s=1WugPhiDbDDkcXjX9nPs HTTP/1.1[0m" 304 -
+2025-08-31 07:00:05,526 127.0.0.1 - - [31/Aug/2025 07:00:05] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:06:10,526 127.0.0.1 - - [31/Aug/2025 07:06:10] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:06:12,248 127.0.0.1 - - [31/Aug/2025 07:06:12] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 07:06:12,471 127.0.0.1 - - [31/Aug/2025 07:06:12] "[33mGET /coffees.html HTTP/1.1[0m" 404 -
+2025-08-31 07:06:59,897  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 07:06:59,934  * Restarting with stat
+2025-08-31 07:07:00,175  * Debugger is active!
+2025-08-31 07:07:00,175  * Debugger PIN: 283-526-343
+2025-08-31 07:07:00,620 127.0.0.1 - - [31/Aug/2025 07:07:00] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:07:02,360 127.0.0.1 - - [31/Aug/2025 07:07:02] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 07:07:02,498 127.0.0.1 - - [31/Aug/2025 07:07:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:07:02,505 127.0.0.1 - - [31/Aug/2025 07:07:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:07:02,508 127.0.0.1 - - [31/Aug/2025 07:07:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:07:02,719 127.0.0.1 - - [31/Aug/2025 07:07:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:07:02,725 127.0.0.1 - - [31/Aug/2025 07:07:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:07:04,012 127.0.0.1 - - [31/Aug/2025 07:07:04] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:07:05,401 127.0.0.1 - - [31/Aug/2025 07:07:05] "[35m[1mPOST /claimCoffee/jake HTTP/1.1[0m" 500 -
+2025-08-31 07:07:05,474 127.0.0.1 - - [31/Aug/2025 07:07:05] "[36mGET /claimCoffee/jake?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:07:05,480 127.0.0.1 - - [31/Aug/2025 07:07:05] "[36mGET /claimCoffee/jake?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-31 07:07:05,539 127.0.0.1 - - [31/Aug/2025 07:07:05] "GET /claimCoffee/jake?__debugger__=yes&cmd=resource&f=console.png&s=ue91LGzHFJNUtqDooEdv HTTP/1.1" 200 -
+2025-08-31 07:08:33,989  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 07:08:34,029  * Restarting with stat
+2025-08-31 07:08:34,289  * Debugger is active!
+2025-08-31 07:08:34,290  * Debugger PIN: 283-526-343
+2025-08-31 07:08:35,611 127.0.0.1 - - [31/Aug/2025 07:08:35] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 07:08:35,695 127.0.0.1 - - [31/Aug/2025 07:08:35] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:08:37,374 127.0.0.1 - - [31/Aug/2025 07:08:37] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 07:08:37,559 127.0.0.1 - - [31/Aug/2025 07:08:37] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:08:42,691 127.0.0.1 - - [31/Aug/2025 07:08:42] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 07:08:42,864 127.0.0.1 - - [31/Aug/2025 07:08:42] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:08:44,839 127.0.0.1 - - [31/Aug/2025 07:08:44] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 07:08:44,915 127.0.0.1 - - [31/Aug/2025 07:08:44] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:08:46,531 127.0.0.1 - - [31/Aug/2025 07:08:46] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 07:08:46,622 127.0.0.1 - - [31/Aug/2025 07:08:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:08:46,623 127.0.0.1 - - [31/Aug/2025 07:08:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:08:46,626 127.0.0.1 - - [31/Aug/2025 07:08:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:08:46,629 127.0.0.1 - - [31/Aug/2025 07:08:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:08:46,632 127.0.0.1 - - [31/Aug/2025 07:08:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:08:52,005 127.0.0.1 - - [31/Aug/2025 07:08:52] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:08:53,107 127.0.0.1 - - [31/Aug/2025 07:08:53] "[32mPOST /claimCoffee/jake HTTP/1.1[0m" 302 -
+2025-08-31 07:08:53,153 127.0.0.1 - - [31/Aug/2025 07:08:53] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:08:54,848 127.0.0.1 - - [31/Aug/2025 07:08:54] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 07:08:54,907 127.0.0.1 - - [31/Aug/2025 07:08:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:08:54,936 127.0.0.1 - - [31/Aug/2025 07:08:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:08:54,940 127.0.0.1 - - [31/Aug/2025 07:08:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:08:54,943 127.0.0.1 - - [31/Aug/2025 07:08:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:08:54,949 127.0.0.1 - - [31/Aug/2025 07:08:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:08:59,426 127.0.0.1 - - [31/Aug/2025 07:08:59] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:09:03,613 127.0.0.1 - - [31/Aug/2025 07:09:03] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 07:09:03,685 127.0.0.1 - - [31/Aug/2025 07:09:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:03,707 127.0.0.1 - - [31/Aug/2025 07:09:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:03,711 127.0.0.1 - - [31/Aug/2025 07:09:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:03,728 127.0.0.1 - - [31/Aug/2025 07:09:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:03,731 127.0.0.1 - - [31/Aug/2025 07:09:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:15,139 127.0.0.1 - - [31/Aug/2025 07:09:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-31 07:09:15,210 127.0.0.1 - - [31/Aug/2025 07:09:15] "GET /login.html HTTP/1.1" 200 -
+2025-08-31 07:09:26,078 127.0.0.1 - - [31/Aug/2025 07:09:26] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-31 07:09:26,129 127.0.0.1 - - [31/Aug/2025 07:09:26] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 07:09:26,207 127.0.0.1 - - [31/Aug/2025 07:09:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:26,224 127.0.0.1 - - [31/Aug/2025 07:09:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:26,228 127.0.0.1 - - [31/Aug/2025 07:09:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:26,285 127.0.0.1 - - [31/Aug/2025 07:09:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:26,334 127.0.0.1 - - [31/Aug/2025 07:09:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:30,329 127.0.0.1 - - [31/Aug/2025 07:09:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-08-31 07:09:30,379 127.0.0.1 - - [31/Aug/2025 07:09:30] "GET /login.html HTTP/1.1" 200 -
+2025-08-31 07:09:35,872 127.0.0.1 - - [31/Aug/2025 07:09:35] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2025-08-31 07:09:35,941 127.0.0.1 - - [31/Aug/2025 07:09:35] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 07:09:36,041 127.0.0.1 - - [31/Aug/2025 07:09:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:36,043 127.0.0.1 - - [31/Aug/2025 07:09:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:36,045 127.0.0.1 - - [31/Aug/2025 07:09:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:36,049 127.0.0.1 - - [31/Aug/2025 07:09:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:36,053 127.0.0.1 - - [31/Aug/2025 07:09:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:47,407 127.0.0.1 - - [31/Aug/2025 07:09:47] "GET /AddUser HTTP/1.1" 200 -
+2025-08-31 07:09:50,913 127.0.0.1 - - [31/Aug/2025 07:09:50] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 07:09:51,004 127.0.0.1 - - [31/Aug/2025 07:09:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:51,020 127.0.0.1 - - [31/Aug/2025 07:09:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:51,022 127.0.0.1 - - [31/Aug/2025 07:09:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:51,025 127.0.0.1 - - [31/Aug/2025 07:09:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:51,028 127.0.0.1 - - [31/Aug/2025 07:09:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:52,874 127.0.0.1 - - [31/Aug/2025 07:09:52] "GET /coffees HTTP/1.1" 200 -
+2025-08-31 07:09:54,733 127.0.0.1 - - [31/Aug/2025 07:09:54] "GET /index.html HTTP/1.1" 200 -
+2025-08-31 07:09:54,801 127.0.0.1 - - [31/Aug/2025 07:09:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:54,804 127.0.0.1 - - [31/Aug/2025 07:09:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:09:54,854 127.0.0.1 - - [31/Aug/2025 07:09:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:54,867 127.0.0.1 - - [31/Aug/2025 07:09:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:09:54,870 127.0.0.1 - - [31/Aug/2025 07:09:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:11,049 127.0.0.1 - - [31/Aug/2025 07:10:11] "GET /index.html?pretester=jake&screen_completion=All&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-31 07:10:11,132 127.0.0.1 - - [31/Aug/2025 07:10:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:10:11,135 127.0.0.1 - - [31/Aug/2025 07:10:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:11,137 127.0.0.1 - - [31/Aug/2025 07:10:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:10:11,200 127.0.0.1 - - [31/Aug/2025 07:10:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:11,261 127.0.0.1 - - [31/Aug/2025 07:10:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:14,698 127.0.0.1 - - [31/Aug/2025 07:10:14] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=All HTTP/1.1" 200 -
+2025-08-31 07:10:14,775 127.0.0.1 - - [31/Aug/2025 07:10:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:10:14,786 127.0.0.1 - - [31/Aug/2025 07:10:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:10:14,794 127.0.0.1 - - [31/Aug/2025 07:10:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:14,796 127.0.0.1 - - [31/Aug/2025 07:10:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:14,802 127.0.0.1 - - [31/Aug/2025 07:10:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:19,411 127.0.0.1 - - [31/Aug/2025 07:10:19] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=Yes HTTP/1.1" 200 -
+2025-08-31 07:10:19,483 127.0.0.1 - - [31/Aug/2025 07:10:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:10:19,505 127.0.0.1 - - [31/Aug/2025 07:10:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:10:19,510 127.0.0.1 - - [31/Aug/2025 07:10:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:19,514 127.0.0.1 - - [31/Aug/2025 07:10:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:19,520 127.0.0.1 - - [31/Aug/2025 07:10:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:27,989 127.0.0.1 - - [31/Aug/2025 07:10:27] "GET /index.html?pretester=All&screen_completion=All&hearing_loss=All&pls_call=No HTTP/1.1" 200 -
+2025-08-31 07:10:28,056 127.0.0.1 - - [31/Aug/2025 07:10:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-31 07:10:28,066 127.0.0.1 - - [31/Aug/2025 07:10:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-31 07:10:28,076 127.0.0.1 - - [31/Aug/2025 07:10:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:28,142 127.0.0.1 - - [31/Aug/2025 07:10:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:28,191 127.0.0.1 - - [31/Aug/2025 07:10:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-31 07:10:39,448  * Detected change in '/workspaces/Software-Engineering-Project-Part-1/main.py', reloading
+2025-08-31 07:10:39,486  * Restarting with stat
+2025-08-31 07:10:39,731  * Debugger is active!
+2025-08-31 07:10:39,731  * Debugger PIN: 283-526-343
