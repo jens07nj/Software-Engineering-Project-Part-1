@@ -58,10 +58,12 @@
     <form action="/screenform.html" method="POST">
       <label for="patient_id">Patient ID:</label>
       <input
-        type="text"
+        type="number"
         id="patient_id"
         name="patient_id"
         required
+        min="0"
+        step="1"
       /><br /><br />
 
       <label>Screen Complete:</label>
